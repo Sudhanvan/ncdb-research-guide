@@ -1,0 +1,22 @@
+---
+title: "Descriptive Analysis"
+---
+
+::: {.callout-note title="Teaching outline"}
+This chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.
+:::
+
+
+# Start here before regression
+
+Always inspect:
+
+- cohort size
+- missingness
+- distributions
+- implausible values
+- category frequencies
+- outcome prevalence
+- exposure prevalence
+
+Do not fit the final model until these checks are complete.

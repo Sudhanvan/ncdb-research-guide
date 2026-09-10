@@ -1,0 +1,38 @@
+---
+title: "Importing NCDB Data"
+---
+
+::: {.callout-note title="Teaching outline"}
+This chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.
+:::
+
+
+# Goal
+
+Convert the raw local NCDB file into an analysis-ready local format.
+
+## Recommended pipeline
+
+```text
+Raw NCDB file
+    ↓
+Read using supplied file structure
+    ↓
+Assign names and data types
+    ↓
+Validate row/column counts
+    ↓
+Audit missingness
+    ↓
+Save processed local copy
+```
+
+Parquet is convenient for repeated Python analyses because it preserves data types and loads quickly.
+
+```python
+import pandas as pd
+
+df = pd.read_parquet("data/processed/ncdb_master.parquet")
+```
+
+The exact parser should be adapted to the locally supplied NCDB file format and documentation.

@@ -1,0 +1,20 @@
+---
+title: "Missingness and Data Quality"
+---
+
+
+::: {.callout-note}
+Teaching outline. Use release-specific definitions before creating analytic missing values.
+:::
+
+## Audit in layers
+
+Start with raw-code frequencies and valid-value checks, then distinguish unknown, not applicable, not collected, suppressed and ordinary blank values where your dictionary supports those meanings. Python's `isna()` sees software missing values; it does not know registry conventions.
+
+Inspect availability and missingness by diagnosis year, disease scope and exposure group. Check ranges, timing consistency and unexpected categories. Keep an explicit reason field when multiple raw codes become analytic missing. Exact duplicate rows are a signal to investigate identity and import behavior, not automatic permission to delete.
+
+## Document the analysis denominator
+
+Write down input N, exclusions and reasons, final N and events for each model. Complete-case analysis can change the population and introduce bias. Imputation cannot manufacture a historically uncollected construct without substantial assumptions. Choose and review the missing-data strategy before fitting; model helpers refuse missing input so this decision cannot be hidden by default deletion.
+
+The [dictionary lesson](dictionary.qmd) provides the map and availability workflow.

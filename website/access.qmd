@@ -1,0 +1,58 @@
+---
+title: "2. Obtaining Access"
+---
+
+
+## What you will learn
+
+Prepare an application with your faculty investigator, locate the institutional contact, and distinguish data access from institutional permission to conduct the study. You can complete the synthetic lessons while waiting.
+
+::: {.callout-note title="Official source — verify before applying"}
+The [ACS PUF portal](https://www.facs.org/quality-programs/cancer-programs/national-cancer-database/puf/) describes application-based access for investigators associated with CoC-accredited programs. The [June 2026 application instructions](https://www.facs.org/media/iwklez3q/instructions-to-potential-ncdb-puf-applicants.pdf) specify PI participation, a program support letter, a facility-based analyst, and QPort applicant designation through the program's Primary Contact. Use the live instructions for required fields and deadlines.
+:::
+
+## Who does what?
+
+**Educational explanation.** Start by identifying people, not by downloading software.
+
+| Role | Practical preparation task |
+|---|---|
+| Faculty principal investigator (PI) | Own the proposal, verify eligibility, and complete required agreements |
+| Student or researcher | Draft feasibility notes, learn the dictionary, and document the workflow |
+| Cancer registrar / QPort contact | Help identify the correct program contact and application access route |
+| Analyst or statistician | Assess data feasibility, design, resources, and analysis requirements |
+| Institutional research/privacy office | Determine local review, storage, access, and retention requirements |
+
+Being a student at a hospital does not automatically authorize downloading or analyzing its PUF. Work through the PI's approved team and access process.
+
+## Prepare a small application packet
+
+1. Draft the population, exposure, comparator, and outcome in plain language.
+2. Verify that the requested organ-site file and diagnosis years can support the question. A familiar disease label is not a substitute for checking file groupings.
+3. List required fields and unresolved coding questions in your variable map.
+4. Explain the primary analysis, missing-data plan, and principal limitations. Have a mentor assess whether the question is feasible.
+5. Assemble personnel information and supporting materials using the current official checklist. Keep biosketches and application records in approved local storage.
+6. Ask the QPort contact to confirm the PI's applicant designation; then follow the official portal workflow.
+7. Record approval and download notifications, applicable agreements, and the permitted users before obtaining the files.
+
+The [current FAQ](https://www.facs.org/media/5xukuwub/ndcb-puf-frequently-asked-questions.pdf) restricts data access outside the facility and describes how to update investigators. A collaborator's expertise is not permission to send them data. Resolve team changes with the PI and NCDB.
+
+## Institutional review is a separate step
+
+**Project decision.** Obtain your institution's determination about IRB or other research review. Do not copy another paper's “exempt” or “not human subjects research” statement into your protocol. Record the actual determination, date, reference number, and any conditions locally.
+
+Agree where files may reside, who may access them, how backups work, and what happens when a student graduates. Use institutional channels for credentials; do not save passwords in Python, YAML, Markdown, or Git.
+
+## Your access record
+
+In approved local storage, maintain a short record with: PI and analyst; authorized team; project purpose; approved file/site; approval reference; storage owner; permitted storage location; training completion; download deadline from the notification; and retention/handoff obligations. The reusable template contains `access_record.md` with blank fields.
+
+## If access does not work
+
+Confirm the applicant role with the institutional contact. Follow official password recovery. Do not borrow another person's login. A download archive may use a different password from the portal; follow the instructions supplied with that download.
+
+## Practice and readiness
+
+Write a draft email to your mentor identifying the institutional contact, your question, and three unresolved feasibility items. You do not need to send it to complete the lesson. You are ready for the next step when you can identify the PI, access route, local review process, and approved storage owner.
+
+Next: [Understand the PUF and downloaded files](puf.qmd).

@@ -1,0 +1,54 @@
+---
+title: "5. Coding Systems"
+---
+
+
+## What you will learn
+
+Recognize which reference answers which coding question and avoid treating different years, staging contexts, and tumor schemas as interchangeable.
+
+## A code needs a context
+
+**Educational explanation.** A value has meaning only together with its field, disease context, coding version, and diagnosis year. Codes are labels unless the definition establishes a quantitative scale. For example, a treatment category numbered 3 is not necessarily “three times” category 1.
+
+| System or resource | Question it helps answer | What you must verify |
+|---|---|---|
+| ICD-O topography | Where did the primary tumor arise? | Applicable site code and version |
+| ICD-O morphology | What tumor type and behavior were recorded? | Histology, behavior, and site compatibility |
+| AJCC stage | What extent of disease is represented? | Disease schema, edition, clinical/pathologic context, timing |
+| STORE / historical FORDS | How were registry items collected? | Diagnosis-year manual and whether the item is in your PUF |
+| Collaborative Stage / SSFs | What did an older site-specific factor mean? | Schema, factor number, year, and definition |
+| SSDI and grade manuals | What do site-specific or grade items mean? | Applicable schema, manual version, timing, and availability |
+| SEER*Rx | How is a drug classified for registry coding? | Applicable guidance; do not infer patient regimen detail |
+
+Official starting points: [SEER ICD-O materials](https://seer.cancer.gov/icd-o-3/index.html), [SEER introduction to site and morphology](https://training.seer.cancer.gov/coding-primary/introduction.html), [ACS registry manuals](https://www.facs.org/quality-programs/cancer-programs/national-cancer-database/ncdb-data-submission/), and the coding-resource links on the [ACS PUF page](https://www.facs.org/quality-programs/cancer-programs/national-cancer-database/puf/).
+
+## Site is not histology
+
+Topography describes location; histology describes tumor type. Neither alone necessarily identifies the cohort you want. Review the official organ-site groupings and your disease-specific definition before filtering. A file's name is a starting point for investigation, not a complete eligibility rule.
+
+ICD-O is not interchangeable with ICD-10 diagnosis billing codes. SEER's [ICD-O materials](https://seer.cancer.gov/icd-o-3/index.html) also identify diagnosis-year changes in site–morphology validation resources. Do not apply a current validation table to every historical year without checking applicability.
+
+## Stage is more than a number
+
+Clinical and pathologic assessments use different information at different points in care. A postoperative assessment can be affected by treatment and selection into surgery. Substituting it for baseline disease severity can change the scientific interpretation of a model.
+
+**Project decision.** State the intended stage construct, required timing, precedence rule if multiple fields exist, and approach to discordance. Retain the original fields and a flag identifying the source used. If two staging editions differ, do not assume that identical labels represent identical disease severity. A universal conversion table is not supplied here.
+
+Use the release dictionary and linked AJCC resources to verify the edition and schema. This guide does not reproduce licensed staging tables.
+
+## Changing site-specific fields
+
+A historical numbered site-specific factor and a newer named item may both sound like a biomarker, yet differ in definition, specimen context, collection years, or codes. Check source meaning before combining them. Document a separate transformation for each supported era; otherwise label the era unavailable or restrict the study with a rationale.
+
+## Treatment and grade
+
+Distinguish treatment at the reporting facility from summary treatment where your fields make that distinction. Do not convert a treatment summary into dose, regimen, adherence, or recurrence treatment detail that it does not contain. Likewise, distinguish grade context before combining columns. The correct recode depends on the item and disease, not a generic number range.
+
+## Practice: the same code in two eras
+
+In an invented dataset, era A uses `1 = marker present`; era B uses `1 = test not performed`. A naive merge would combine incompatible categories. Write two mapping rules and a reason for every missing value. Then explain why looking only at the distribution of `1` cannot detect this mistake.
+
+## Readiness check
+
+For one planned field, identify its coding resource, version, disease scope, years, and timing. If any is unknown, put the uncertainty in your variable map before analysis. Next: [Computer Setup](setup.qmd).

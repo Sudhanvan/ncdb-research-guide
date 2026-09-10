@@ -1,0 +1,25 @@
+---
+title: "Analysis Overview"
+---
+
+
+## Select a method from the question
+
+The templates are teaching components. Read `ANALYSIS_GUIDE.md` in your generated project for required variables, assumptions, NCDB pitfalls, code behavior and interpretation for every script. The synthetic demo tests mechanics; it does not validate a clinical analysis.
+
+| Task | Begin with | Decision that must precede code |
+|---|---|---|
+| Understand the cohort | [Missingness](missingness.qmd), [descriptive summaries](descriptive.qmd) | Denominators, coding validity and eligibility |
+| Describe group characteristics | [Table 1](descriptive.qmd) | Category definitions and missingness reporting |
+| Model a binary endpoint | [Logistic regression](regression.qmd) | Outcome window, confounders, encoding and functional form |
+| Describe time to event | [Kaplan–Meier](survival.qmd) | Time origin, event/censor coding and groups |
+| Adjust a time-to-event comparison | [Cox regression](survival.qmd) | PH, timing, confounders and facility correlation |
+| Balance measured baseline covariates | [Propensity methods](propensity.qmd) | Target estimand, overlap, design and inference |
+| Challenge assumptions | [Sensitivity analyses](sensitivity.qmd) | Named assumption and justified alternate rule |
+| Develop prediction | [Machine learning](machine_learning.qmd) | Prediction target, time horizon and validation strategy |
+
+## Use an explicit sequence
+
+Define the question and protocol → verify variables → import and audit → build the cohort → recode → inspect missingness and Table 1 → implement the approved primary analysis → assess diagnostics → run prespecified sensitivities → review outputs and reporting.
+
+Real-data model helpers do not select covariates, drop missing rows, tune definitions or publish results. Facility clustering, missing-data alternatives, causal estimands and treatment timing require additional study-specific implementation and expert review.

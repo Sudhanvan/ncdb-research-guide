@@ -1,0 +1,68 @@
+---
+title: "4. Understanding and Navigating the Data Dictionary"
+---
+
+
+## What you will learn
+
+Find a field for a clinical concept, check its scope and coding over time, and build a versioned variable map that another researcher can audit.
+
+::: {.callout-note title="Official source — verify each field"}
+Start with the [release-specific PUF dictionary and legacy documents](https://www.facs.org/quality-programs/cancer-programs/national-cancer-database/puf/). The [2024 dictionary](https://www.facs.org/media/ilqb5snq/2024-data-dictionary.pdf) is revised March 2026. Match your release rather than automatically choosing the newest manual. Registry manuals contain fields that are not necessarily present in a PUF.
+:::
+
+## Search by concept, then by exact variable
+
+**Educational explanation.** Suppose your question includes “stage.” That word alone is insufficient: you may need clinical stage before treatment, pathologic stage after surgery, or another defined staging construct. A convenient column name does not settle the scientific question.
+
+1. Write the concept and when it should be measured relative to the exposure.
+2. Search the dictionary using the concept and likely synonyms. Read the whole item entry, including notes and related fields.
+3. Record the exact raw name and item identifier, where available. Do not rename raw columns in place.
+4. Check which cases and diagnosis years the item applies to. Look for changes in definition, coding system, collection requirements, and missing-value conventions.
+5. Identify each possible raw value's meaning using your local documentation. Keep code-like fields as strings during import.
+6. Read the matching release changes and linked coding resources. A different manual's similarly named item may have a different purpose.
+7. Write your proposed analytic transformation separately; request mentor or registrar review where the meaning is unresolved.
+8. After authorized import, compare actual codes and year-specific frequencies with expectations. Unexpected values should trigger investigation, not automatic coercion.
+
+## A variable map is an analysis contract
+
+The template `variable_map.csv` is a blank metadata table, not patient data. Use one row per source field and coding era when necessary.
+
+| Field group | What to record |
+|---|---|
+| Concept and raw identity | Concept, exact variable name, item ID, release |
+| Source evidence | Source URL/title, revision, page/section, date checked; summarize in your own words |
+| Scope | Applicable sites, diagnosis years, definition/coding changes |
+| Raw representation | Data type, valid values, distinct unknown/not-applicable codes |
+| Analytic decision | New name, transformation, missingness rule, model reference category |
+| Review and validation | Decision rationale, reviewer, date, checks and unresolved issues |
+
+Do not paste entire proprietary code tables into this public guide. Record pointers and the minimal original notes needed to audit your work within permitted use.
+
+## Worked example: fictional codes
+
+Assume an invented field `DEMO_MARKER` uses `P` for present, `A` for absent, `U` for unknown, and `N` for not applicable. These are **not NCDB codes**.
+
+Your source notes preserve all four meanings. A project decision might produce `marker_present` with 1 for `P`, 0 for `A`, and missing for the other two. Keep a companion reason field so `U` and `N` remain distinguishable. Mapping both to numeric missing is not permission to forget their different denominators.
+
+```python
+import pandas as pd
+raw = pd.Series(["P", "A", "U", "N"], dtype="string")
+assert raw.isin(["P", "A", "U", "N"]).all()
+analytic = raw.map({"P": 1, "A": 0}).astype("Int64")
+reason = raw.map({"U": "unknown", "N": "not applicable"})
+```
+
+If a new value `X` appears, stop and establish its meaning. Do not convert every unrecognized code to missing silently.
+
+## Build an availability matrix
+
+For each required field, make a row for each diagnosis year or documented era. Distinguish **collected and applicable**, **not collected**, **not applicable**, and **uncertain**. Then inspect observed missingness within the applicable cases. An empty column before collection began is structural unavailability; it is not ordinary sporadic missingness.
+
+**Project decision.** If the exposure is unavailable for part of the proposed period, choose a justified restriction, a documented harmonization, or a revised question. Do not invent an equivalent field or impute an unmeasured historical construct without methodological review.
+
+## Practice and readiness
+
+Complete a map entry for one required concept, including source revision, years, missing codes, a proposed transformation, and an explicit unresolved question. Ask another student to reproduce the decision from your notes. You are ready when they can distinguish official meaning from your analytic choice.
+
+Next: [Coding Systems](coding_systems.qmd).

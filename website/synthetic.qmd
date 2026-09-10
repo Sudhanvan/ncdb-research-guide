@@ -1,0 +1,43 @@
+---
+title: "Synthetic Walkthrough"
+---
+
+
+## Purpose
+
+Practice a reproducible sequence before handling approved records. Every field beginning `demo_` is invented; the distributions and model coefficients have no NCDB or clinical interpretation.
+
+## Run it
+
+From the guide root with the Python environment active:
+
+```bash
+python create_ncdb_project.py --name "Practice study" --site "Synthetic" --outcome "demo_event" --exposure "demo_group"
+python projects/practice_study/scripts/run_synthetic.py
+```
+
+The generator refuses to overwrite an existing project. To repeat the practice analysis, run the second command again. Outputs are overwritten only in that project's synthetic results folder.
+
+## What happens
+
+1. An in-memory fixed-width example uses invented ID, age, and marker fields. The first ID remains `001`, demonstrating why codes should initially be strings.
+2. A seeded random generator creates 600 fictional records with age, group, a separate binary outcome, and censored follow-up.
+3. A fictional age restriction selects an adult practice cohort and records exclusions. This rule is not a recommendation for your study.
+4. The script writes missingness summaries, grouped counts, logistic estimates, a KM plot, Cox estimates, and a small run summary.
+5. Propensity scores are estimated to exercise the function, but no matching or causal effect is claimed. Individual scores and individual records are not exported.
+
+## Learn fixed-width positions
+
+Imagine `00145P`: positions 1–3 are an invented identifier, 4–5 are age, and 6 is a fictional marker. Python's `colspecs` use zero-based, end-exclusive positions: `[(0, 3), (3, 5), (5, 6)]`. The endpoint is not included. This example is **not** an NCDB layout. See [pandas read_fwf](https://pandas.pydata.org/docs/reference/api/pandas.read_fwf.html).
+
+## Inspect the outputs
+
+Open `projects/practice_study/results/synthetic/summary.json` and `cohort_flow.csv` locally. Confirm that retained plus excluded equals 600. Check that Table 1 counts sum to the final cohort. The binary outcome used for logistic regression differs from the follow-up event used by survival models; they answer different demonstration questions.
+
+The KM curve displays censoring-based estimates for invented groups. The logistic and Cox confidence intervals reflect fitted sampling models, not real clinical evidence. These estimates do not validate assumptions or authorize the same specification on NCDB data.
+
+## Extend carefully
+
+Change the synthetic seed and observe variation. Add a missing predictor and confirm that the model helper refuses it. Explain why that refusal requires a missing-data decision rather than an automatic `.dropna()`. Run tests again after changing utilities.
+
+Next: use the [analysis overview](analysis.qmd) to plan a real study with your mentor.

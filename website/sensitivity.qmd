@@ -1,0 +1,16 @@
+---
+title: "Sensitivity Analyses"
+---
+
+
+::: {.callout-note}
+Teaching outline; the template deliberately requires a study-specific implementation.
+:::
+
+## Challenge a named assumption
+
+A sensitivity analysis asks whether a conclusion depends on a defensible alternative assumption. Examples include an alternate coding-era restriction, a different exposure definition, a justified missing-data approach, or an analysis addressing treatment timing.
+
+For each analysis record the assumption, changed rule, target population/estimand, expected change in sample, and comparison to the primary result. Compare effect sizes, confidence intervals and cohort composition. A change in statistical significance alone is not a robustness criterion.
+
+Prespecify the main alternatives and label exploratory additions. Do not cycle through exclusions to obtain a preferred p-value. Unmeasured confounding, immortal time and structural unavailability require design-specific expertise; a generic loop over models will not solve them.

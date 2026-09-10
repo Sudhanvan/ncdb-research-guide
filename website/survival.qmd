@@ -1,0 +1,22 @@
+---
+title: "Survival Analysis"
+---
+
+::: {.callout-note title="Teaching outline"}
+This chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.
+:::
+
+
+# Common tools
+
+- Kaplan-Meier curves
+- log-rank test
+- Cox proportional hazards regression
+
+## Always check
+
+- time origin
+- event definition
+- censoring
+- follow-up availability
+- proportional hazards assumption

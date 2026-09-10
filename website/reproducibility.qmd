@@ -1,0 +1,20 @@
+---
+title: "Reproducibility and Project Handoff"
+---
+
+
+::: {.callout-note}
+Teaching outline. Adapt the handoff to institutional policy and your approved study.
+:::
+
+## Reconstruct the work
+
+Record the PUF release and local input checksums, dictionary revisions, protocol version, source-code commit, Python/package versions, Quarto version and run command. Keep patient-level inputs and outputs in approved storage. The public code should be understandable without copying those records.
+
+Separate immutable inputs, intermediate transformations and reviewed aggregate results. Preserve a cohort flow and a record of changes to the protocol. A fixed random seed makes a computational step repeatable; it does not address biased study design.
+
+## Hand off responsibility
+
+Give the next authorized researcher the question, access requirements, approved storage location, environment instructions, variable map, cohort rules, analysis plan, diagnostics, disclosure review record and known limitations through approved channels. Test recreation using the synthetic demo. Re-run the real study only in the authorized environment.
+
+Have the PI confirm access changes when a researcher leaves. Do not transfer credentials, copy data to personal storage, or assume access continues after graduation.

@@ -1,0 +1,14 @@
+:root { --guide-navy: #15364a; --guide-teal: #006c75; }
+body { font-size: 1.05rem; line-height: 1.7; }
+.navbar { background-color: var(--guide-navy); }
+a { color: var(--guide-teal); text-underline-offset: .17em; }
+h1, h2, h3 { color: var(--guide-navy); }
+h1.title { font-weight: 700; letter-spacing: -.025em; }
+h2 { margin-top: 2rem; }
+.sidebar-item { font-size: .94rem; }
+.table { font-size: .96rem; }
+.table thead { background: #eaf1f5; }
+.callout { margin: 1.4rem 0; }
+pre { border: 1px solid #d7e2e9; border-radius: .3rem; }
+a:focus-visible, button:focus-visible { outline: 3px solid #007f8b; outline-offset: 3px; }
+@media (max-width: 767px) { body { font-size: 1rem; } .table { font-size: .9rem; } }

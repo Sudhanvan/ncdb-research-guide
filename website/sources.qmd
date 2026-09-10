@@ -1,0 +1,33 @@
+---
+title: "Official Sources and Verification Register"
+---
+
+
+Public links reviewed **September 7, 2026**. These are references, not copied manuals. Link availability and release content can change; recheck before applying, importing, recoding or reporting. This educational project is not an official ACS publication.
+
+| Resource | Use | Version or review note |
+|---|---|---|
+| [ACS NCDB overview](https://www.facs.org/quality-programs/cancer-programs/national-cancer-database/) | Data-source description | Live overview |
+| [ACS PUF resources](https://www.facs.org/quality-programs/cancer-programs/national-cancer-database/puf/) | Current and legacy releases, agreements, coding resources | Landing page linked 2024 resources at review |
+| [Application instructions](https://www.facs.org/media/iwklez3q/instructions-to-potential-ncdb-puf-applicants.pdf) | Roles, access route, application elements | June 2026 |
+| [PUF FAQ](https://www.facs.org/media/5xukuwub/ndcb-puf-frequently-asked-questions.pdf) | Access, scope, release and reporting cautions | May 2026 |
+| [Getting Started with 2024 PUF](https://www.facs.org/media/5fun25np/getting-started-with-the-2024-puf.pdf) | Release and case context | March 2026 |
+| [2024 Data Dictionary](https://www.facs.org/media/ilqb5snq/2024-data-dictionary.pdf) | Item definitions and availability | Revised March 2026; check your own release |
+| [2024 Quick Start Data Structure](https://www.facs.org/media/lx4njye1/ncdb-puf-quickstart-data-structure-2024.pdf) | Layout reference | Release-specific; no positions reproduced here |
+| [2024 PUF Changes](https://www.facs.org/media/eetfusoi/2024-puf-changes.pdf) | Release change review | Review before porting prior code |
+| [ACS registry manuals](https://www.facs.org/quality-programs/cancer-programs/national-cancer-database/ncdb-data-submission/) | STORE and historical references | Choose diagnosis-year manual |
+| [SEER ICD-O materials](https://seer.cancer.gov/icd-o-3/index.html) | Coding updates and validation resources | Match diagnosis year/version |
+| [SEER coding introduction](https://training.seer.cancer.gov/coding-primary/introduction.html) | Site and morphology explanation | Educational reference |
+| [Python venv](https://docs.python.org/3/library/venv.html) | Environment isolation | Select documentation for installed Python |
+| [VS Code environments](https://code.visualstudio.com/docs/python/environments) | Interpreter selection | Interface may evolve |
+| [Quarto download](https://quarto.org/docs/download/) | CLI installation | Validated locally using 1.9.38 |
+| [pandas read_fwf](https://pandas.pydata.org/docs/reference/api/pandas.read_fwf.html) | Fixed-width parser API | Explicit positions required for practice |
+| [statsmodels Logit](https://www.statsmodels.org/stable/generated/statsmodels.discrete.discrete_model.Logit.html) | Logistic implementation | Consult installed-version behavior |
+| [lifelines survival regression](https://lifelines.readthedocs.io/en/latest/Survival%20Regression.html) | Cox assumptions and API | Consult installed-version behavior |
+| [scikit-learn LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) | Propensity-score component | Regularized classifier, not matching |
+
+## Maintaining evidence
+
+For an official claim, record organization, document title, version/revision, section, URL, and date verified. For an educational example, mark it fictional and explain its purpose. For a project decision, record rationale, reviewer, and protocol version. Unresolved discrepancies belong in the variable map and should be resolved with the responsible expert before analysis.
+
+No official manual, complete coding table, licensed stage definition, or patient record is bundled with this guide.

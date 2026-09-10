@@ -1,0 +1,27 @@
+---
+title: "Building the Cohort"
+---
+
+::: {.callout-note title="Teaching outline"}
+This chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.
+:::
+
+
+# Define the cohort before running models
+
+Write inclusion and exclusion criteria in plain language before coding them.
+
+Example:
+
+```text
+Initial disease-site cohort
+→ diagnosis years
+→ age restriction
+→ histology restriction
+→ known exposure
+→ known outcome
+→ valid staging
+→ analytic cohort
+```
+
+The script should record the number of patients remaining after every step.

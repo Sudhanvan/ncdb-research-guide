@@ -1,0 +1,27 @@
+---
+title: "Regression"
+---
+
+::: {.callout-note title="Teaching outline"}
+This chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.
+:::
+
+
+# Logistic regression
+
+Use for binary outcomes.
+
+Report:
+
+- adjusted odds ratio
+- 95% confidence interval
+- p-value
+- reference category
+- sample size
+- model specification
+
+# Linear regression
+
+Use when assumptions are appropriate for continuous outcomes.
+
+Always check the distribution and residual behavior.

@@ -1,0 +1,21 @@
+---
+title: "Machine Learning"
+---
+
+::: {.callout-note title="Teaching outline"}
+This chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.
+:::
+
+
+# Secondary analyses
+
+Machine-learning methods can supplement, but should not automatically replace, a clinically interpretable primary model.
+
+Possible uses:
+
+- prediction
+- nonlinear relationships
+- feature importance
+- SHAP analysis
+
+Always separate predictive importance from causal interpretation.

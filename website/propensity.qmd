@@ -1,0 +1,25 @@
+---
+title: "Propensity Methods"
+---
+
+::: {.callout-note title="Teaching outline"}
+This chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.
+:::
+
+
+# Goal
+
+Improve measured covariate balance between exposure groups.
+
+Possible approaches:
+
+- matching
+- inverse probability weighting
+- overlap weighting
+
+## Required diagnostics
+
+- standardized mean differences
+- pre/post balance
+- retained sample size
+- overlap/common support

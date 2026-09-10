@@ -1,0 +1,34 @@
+---
+title: "Troubleshooting"
+---
+
+::: {.callout-note title="Teaching outline"}
+This chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.
+:::
+
+
+# Common programming problems
+
+## File will not load
+
+Check:
+
+- path
+- delimiter
+- encoding
+- expected number of columns
+- supplied import/layout script
+
+## Regression fails
+
+Check:
+
+- missing values
+- outcome coding
+- perfect separation
+- duplicate predictors
+- sparse categories
+
+## Unexpected sample-size loss
+
+Print the cohort size after every filtering step.

@@ -1,0 +1,55 @@
+---
+title: "NCDB Research Guide"
+---
+
+
+A practical learning path from your first research question to a reproducible analysis. You do not need NCDB access or prior Python experience to begin.
+
+## Begin with the foundations
+
+| Order | Lesson | What you will leave with |
+|---|---|---|
+| 1 | [Start Here: What is NCDB?](start_here.qmd) | A feasible question and a clear description of the population |
+| 2 | [Obtaining Access](access.qmd) | An application preparation checklist and a local approvals record |
+| 3 | [The PUF and downloaded files](puf.qmd) | A release inventory and a safe storage plan |
+| 4 | [Navigating the Data Dictionary](dictionary.qmd) | Your first documented variable-map entry |
+| 5 | [Coding Systems](coding_systems.qmd) | A plan for checking site, histology, stage, and year-specific coding |
+| 6 | [Computer, VS Code, and Python Setup](setup.qmd) | A working environment and a successful synthetic practice run |
+
+Read these six lessons in order. Each includes a practice task and a readiness check. Use the sidebar to move between lessons or search for a term such as “unknown,” “PUF,” or “clinical stage.”
+
+## Choose your next step
+
+**Still waiting for access?** Complete the foundations and [synthetic walkthrough](synthetic.qmd). All practice records are invented.
+
+**Have approved data?** Start with the [import plan](import.qmd), [variable map](dictionary.qmd), and [cohort definition](cohort.qmd). Keep records in approved institutional storage outside this guide.
+
+**Ready to analyze?** Use the [analysis overview](analysis.qmd) to select a method with your mentor. The later chapters are introductory checklists and the scripts are teaching components, not a validated end-to-end NCDB analysis pipeline.
+
+**Preparing a manuscript?** Review [pitfalls](pitfalls.qmd), [reporting](manuscript.qmd), and [reproducibility and handoff](reproducibility.qmd).
+
+## How to read this guide
+
+::: {.callout-note title="Official source — verify against your release"}
+Links point to ACS/NCDB or other responsible organizations. Source summaries are original paraphrases, not a replacement for the applicable dictionary, manual, or agreement. Public sources were checked on September 7, 2026; requirements may change. See the [source register](sources.qmd).
+:::
+
+::: {.callout-tip title="Educational explanation"}
+Our explanations and fictional examples help you learn the workflow. They do not establish official code meanings or clinical conclusions.
+:::
+
+::: {.callout-important title="Project decision — document and review"}
+Eligibility rules, study years, confounders, missing-data methods, model specification, and disclosure review belong to your study protocol. Record who approved each decision and why.
+:::
+
+## Keep research data out of the guide
+
+This repository holds code, original teaching material, and synthetic examples only. Never copy patient rows, screenshots of records, model prediction files, credentials, or restricted downloads into it. A private Git repository is also a sharing system. Read [data protection](data_protection.qmd) before working with approved records.
+
+## Development status
+
+The six foundation lessons and synthetic workflow are developed for onboarding. Advanced lessons remain explicitly marked teaching outlines. They cover the intended full workflow but still need site-specific examples, expert methodological review, and expanded exercises before serving as a comprehensive analysis curriculum.
+
+## Download the guide
+
+[Download the complete guide as a PDF](downloads/NCDB_Research_Guide.pdf) for offline reading.

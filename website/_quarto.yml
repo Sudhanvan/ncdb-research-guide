@@ -1,0 +1,78 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+  resources:
+    - styles.css
+    - downloads/
+website:
+  title: "NCDB Research Guide"
+  search:
+    location: navbar
+    type: overlay
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: start_here.qmd
+        text: Start Here
+      - href: synthetic.qmd
+        text: Practice
+      - href: sources.qmd
+        text: Official Sources
+  sidebar:
+    style: docked
+    collapse-level: 2
+    contents:
+      - index.qmd
+      - section: "Foundation lessons"
+        contents:
+          - start_here.qmd
+          - access.qmd
+          - puf.qmd
+          - dictionary.qmd
+          - coding_systems.qmd
+          - setup.qmd
+      - section: "Working with data"
+        contents:
+          - synthetic.qmd
+          - import.qmd
+          - cohort.qmd
+          - cleaning.qmd
+          - missingness.qmd
+      - section: "Analysis · teaching outlines"
+        contents:
+          - analysis.qmd
+          - descriptive.qmd
+          - regression.qmd
+          - survival.qmd
+          - propensity.qmd
+          - sensitivity.qmd
+          - machine_learning.qmd
+      - section: "Reporting and handoff"
+        contents:
+          - figures_tables.qmd
+          - manuscript.qmd
+          - pitfalls.qmd
+          - reproducibility.qmd
+      - section: "Reference and help"
+        contents:
+          - data_protection.qmd
+          - sources.qmd
+          - troubleshooting.qmd
+  page-footer:
+    left: "Independent educational guide · Synthetic examples only"
+    right: "Verify definitions against your PUF release"
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    code-fold: false
+    lang: en
+execute:
+  enabled: false

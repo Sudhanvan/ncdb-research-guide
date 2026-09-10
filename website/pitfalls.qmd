@@ -1,0 +1,22 @@
+---
+title: "Common NCDB Pitfalls"
+---
+
+::: {.callout-note title="Teaching outline"}
+This chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.
+:::
+
+
+# Common errors
+
+- treating numeric codes as continuous values
+- mixing clinical and pathologic stage without a prespecified rule
+- ignoring diagnosis-year coding changes
+- failing to distinguish unknown from absent
+- using overlapping predictors
+- overadjusting for mediators
+- interpreting association as causation
+- starting analysis before cohort definition
+- ignoring missing-data patterns
+- failing to validate derived variables
+- sharing restricted patient-level data

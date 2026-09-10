@@ -1,0 +1,56 @@
+---
+title: "1. Start Here: What is NCDB?"
+---
+
+
+## What you will learn
+
+By the end, you should be able to describe the data source, distinguish a case from a population denominator, and decide whether a proposed outcome is observable.
+
+::: {.callout-note title="Official source — verify"}
+The National Cancer Database is a hospital-based registry program of the American College of Surgeons and the American Cancer Society. See the [ACS NCDB overview](https://www.facs.org/quality-programs/cancer-programs/national-cancer-database/). The [PUF FAQ](https://www.facs.org/media/5xukuwub/ndcb-puf-frequently-asked-questions.pdf) states that NCDB is not population-based, cannot support population incidence calculations, and that recurrence is not included in the PUF.
+:::
+
+## A registry is a structured account of care
+
+**Educational explanation.** A cancer registry translates clinical information into standardized fields. A row represents a cancer case; a column represents an item such as diagnosis year or a treatment characteristic. A registry code is the output of a coding rule, not a complete clinical narrative. “Unknown” may reflect absent documentation rather than a patient's underlying condition.
+
+The **Participant User File (PUF)** is the research extract you apply to receive. It is not a live connection to hospital charts or the whole registry. The records you analyze have already passed through selection and processing before your study starts. Your analytic cohort adds another layer of selection.
+
+Think of the study population as a sequence:
+
+```text
+People with cancer → cases captured by contributing programs
+→ cases included in your PUF release → cases meeting your protocol
+→ cases with information required for a particular analysis
+```
+
+Each arrow can change who is represented. Large sample size does not eliminate selection bias.
+
+## What questions fit?
+
+| Proposed question | Feasibility assessment |
+|---|---|
+| How does recorded treatment use differ across observed groups? | Potentially feasible after verifying treatment definitions and comparable years |
+| Is an exposure associated with overall survival? | Potentially feasible with valid follow-up, time origin, confounders, and bias assessment |
+| What is the national incidence of this cancer? | Not an appropriate NCDB PUF question: there is no population denominator |
+| Does treatment prevent recurrence? | The required recurrence endpoint is unavailable in the PUF described by the current FAQ |
+| Did treatment cause longer survival? | Observational comparisons require additional causal assumptions; a regression coefficient alone cannot establish this |
+
+Cancer-specific mortality is also unavailable according to the current [application instructions](https://www.facs.org/media/iwklez3q/instructions-to-potential-ncdb-puf-applicants.pdf). Do not rename overall survival as cancer-specific survival.
+
+## Turn an idea into a research question
+
+**Project decision.** Write one sentence naming the population, exposure, comparator, outcome, and relevant time period. For example: “Among a prespecified eligible cancer cohort, is recorded treatment A associated with overall survival compared with treatment B?” This is a question template, not a recommended clinical comparison.
+
+Now list what must be observable: eligibility before treatment, treatment definition and timing, outcome timing, baseline confounders, and follow-up. Mark each as verified, uncertain, or unavailable. An uncertain primary outcome is a feasibility problem to resolve before applying or modeling.
+
+Do not select covariates simply because they are available. A confounder can influence both treatment selection and outcome; a mediator occurs along the pathway from treatment to outcome. Adjusting for these has different implications. Bring a timeline or causal diagram to your mentor.
+
+## Practice: a five-minute feasibility note
+
+Write your proposed question, the source population you can actually study, three required concepts, and one limitation that a larger sample would not solve. Find each concept in the release-specific dictionary. Stop at “not verified” when you cannot establish a definition.
+
+## Readiness check
+
+Can you explain why a million hospital cases do not provide a national incidence denominator? Can you name the endpoint your file actually measures? Can you distinguish association from a causal effect? If so, continue to [Obtaining Access](access.qmd).

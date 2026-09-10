@@ -1,0 +1,86 @@
+---
+title: "6. Computer, VS Code, and Python Setup"
+---
+
+
+## What you will learn
+
+Create an isolated Python environment, select it in VS Code, render the website, and run a practice analysis without real data.
+
+## Know the tools
+
+**Educational explanation.** Python runs analysis code. VS Code edits files and provides a terminal. A terminal accepts commands; it is not the Python prompt marked `>>>`. Git records source changes. Quarto converts `.qmd` lessons into a searchable website. Installing the Python package named `quarto` does not replace the Quarto CLI.
+
+Use Python **3.11** for the tested environment. The dependency snapshot records an exact tested package set; other Python versions and operating systems require their own validation. Download installers from [Python](https://www.python.org/downloads/), [VS Code](https://code.visualstudio.com/), [Git](https://git-scm.com/downloads), and [Quarto](https://quarto.org/docs/download/), following institutional software policy.
+
+## Open the right folder
+
+In VS Code, choose **File → Open Folder** and select the guide folder containing `requirements.txt`, `create_ncdb_project.py`, and `website`. Open **Terminal → New Terminal**. Commands below assume that folder is your working directory. Do not type the Markdown backticks or the prompt symbol.
+
+## Create and install the environment
+
+On macOS/Linux:
+
+```bash
+python3.11 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+On Windows PowerShell:
+
+```powershell
+py -3.11 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+```
+
+If activation is blocked by institutional policy, call the interpreter directly rather than changing that policy:
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+A virtual environment holds this project's packages separately. Recreate it after moving the project; do not copy it or commit it. See [Python's venv documentation](https://docs.python.org/3/library/venv.html).
+
+## Select the interpreter in VS Code
+
+Install Microsoft's Python extension. Open the Command Palette and run **Python: Select Interpreter**; select the Python inside this folder's `.venv`. Open a fresh terminal. The [VS Code environment guide](https://code.visualstudio.com/docs/python/environments) documents interpreter selection and environment discovery.
+
+```bash
+python -c "import sys; print(sys.executable); print(sys.version)"
+python -m pip check
+python tools/check_environment.py
+```
+
+The executable should end in `.venv/bin/python` or `.venv\Scripts\python.exe`. `pip check` should report no broken requirements. If an import fails, compare the selected interpreter with the one printed above before reinstalling anything.
+
+## Build and search the guide
+
+```bash
+quarto --version
+quarto render website
+quarto preview website
+```
+
+A successful render produces `website/_site/index.html` and `search.json`. Preview starts a local server; open the address printed in the terminal and try searching “variable map.” Stop preview with Ctrl+C. The website displays code examples without executing analysis on render; executable practice is tested separately.
+
+If this machine's Quarto was installed locally during development, use the absolute CLI path recorded in `AUDIT.md`, or install the CLI normally from the official download page. Restart the terminal after installation if `quarto` is not found.
+
+## Run the synthetic practice project
+
+```bash
+python create_ncdb_project.py --name "Practice study" --site "Synthetic" --outcome "demo_event" --exposure "demo_group"
+python projects/practice_study/scripts/run_synthetic.py
+python -m unittest discover -s tests -v
+```
+
+The generator creates a protected local project. The demo creates invented records in memory and writes only synthetic aggregate outputs into its ignored `results/` folder. It does not read NCDB files. See the [walkthrough](synthetic.qmd) for interpretation.
+
+## A few Python ideas
+
+A variable names an object. A function packages a reusable operation. A pandas `DataFrame` is a table; a `Series` is a column. `df["age"]` selects a column; `df.loc[mask]` selects rows where a Boolean condition is true. Indentation defines blocks. A traceback ends with the immediate error, but the earlier lines show how execution reached it.
+
+## Storage and readiness
+
+**Project decision.** Use only institution-approved storage for real analysis and review [data protection](data_protection.qmd). Do not point practice scripts at patient records. You are ready when the environment check, website render, and synthetic run succeed and you can locate their outputs.

@@ -1,0 +1,25 @@
+---
+title: "Manuscript Reporting"
+---
+
+::: {.callout-note title="Teaching outline"}
+This chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.
+:::
+
+
+# Methods checklist
+
+Describe:
+
+- data source
+- study design
+- diagnosis years
+- inclusion/exclusion criteria
+- exposure
+- outcome
+- covariates
+- missing-data strategy
+- statistical methods
+- sensitivity analyses
+
+Avoid wording that implies population-based incidence unless appropriate for the data source.

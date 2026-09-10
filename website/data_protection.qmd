@@ -1,0 +1,38 @@
+---
+title: "Data Protection and Safe Sharing"
+---
+
+
+## Repository boundary
+
+This guide contains original text, source code, blank metadata templates and invented examples. Keep actual NCDB records in institution-approved storage outside the guide. Patient-level derived tables, predictions, matched cohorts, imputation files, model objects, notebooks, logs and screenshots can be sensitive too.
+
+The `.gitignore` blocks common data formats, archives, credentials, environments, website output and generated projects. Only named blank CSV metadata templates are exempted. Do not turn those templates into patient tables. `.gitignore` does not remove already-tracked files and can be bypassed with force-add; it is one guard, not a security boundary.
+
+## Before a commit
+
+After staging, run `python tools/check_repository.py` from the guide root. It checks the Git index, including staged content, and blocks common risky formats, local paths, oversized files and some credential patterns. Review `git diff --cached` and `git diff --cached --stat` locally. Never paste a diff containing data into a public review tool.
+
+For a folder without Git metadata, `python tools/check_repository.py --source-tree` checks source files while excluding local/generated directories. It is not a full disk audit. The tool cannot recognize every secret, patient record hidden in text, or disclosure through aggregate results.
+
+To enable the included local pre-commit hook after initializing Git:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+Run commits from an environment where `python` resolves to your project interpreter. Hooks can be bypassed; the included CI guard provides a second check, not authorization to upload records.
+
+## Publication needs a separate review
+
+::: {.callout-note title="Official source — verify your agreement"}
+The current [PUF FAQ](https://www.facs.org/media/5xukuwub/ndcb-puf-frequently-asked-questions.pdf) discusses restrictions on reporting small cells and the need to prevent reconstruction. Apply your executed agreement and institutional requirements; an example threshold in code is not the governing rule.
+:::
+
+**Educational explanation.** If a total is 100 and one visible category is 97, hiding the other category does not hide its count of 3. Percentages, margins, complementary categories, repeated tables and KM risk tables can reveal counts. The suppression helper only formats one count and requires an explicit threshold. It does not perform complementary suppression or certify a table.
+
+**Project decision.** Name a reviewer, applicable rule, approved output destination, and review date. Publish only cleared aggregate artifacts. Do not publish the entire analysis directory or its generated project.
+
+## If data were staged or shared
+
+Stop the commit/upload. Keep incident details in approved channels and notify the responsible PI/privacy or security team. Removing a file from the working tree does not remove history, remote copies, logs or backups. Follow institutional incident procedures; do not attempt an undocumented history rewrite or claim that a deleted file has been recalled.

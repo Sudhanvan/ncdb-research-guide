@@ -1,0 +1,1172 @@
+[
+  {
+    "objectID": "troubleshooting.html",
+    "href": "troubleshooting.html",
+    "title": "Troubleshooting",
+    "section": "",
+    "text": "NoteTeaching outline\n\n\n\nThis chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.",
+    "crumbs": [
+      "Home",
+      "Reference and help",
+      "Troubleshooting"
+    ]
+  },
+  {
+    "objectID": "troubleshooting.html#file-will-not-load",
+    "href": "troubleshooting.html#file-will-not-load",
+    "title": "Troubleshooting",
+    "section": "File will not load",
+    "text": "File will not load\nCheck:\n\npath\ndelimiter\nencoding\nexpected number of columns\nsupplied import/layout script",
+    "crumbs": [
+      "Home",
+      "Reference and help",
+      "Troubleshooting"
+    ]
+  },
+  {
+    "objectID": "troubleshooting.html#regression-fails",
+    "href": "troubleshooting.html#regression-fails",
+    "title": "Troubleshooting",
+    "section": "Regression fails",
+    "text": "Regression fails\nCheck:\n\nmissing values\noutcome coding\nperfect separation\nduplicate predictors\nsparse categories",
+    "crumbs": [
+      "Home",
+      "Reference and help",
+      "Troubleshooting"
+    ]
+  },
+  {
+    "objectID": "troubleshooting.html#unexpected-sample-size-loss",
+    "href": "troubleshooting.html#unexpected-sample-size-loss",
+    "title": "Troubleshooting",
+    "section": "Unexpected sample-size loss",
+    "text": "Unexpected sample-size loss\nPrint the cohort size after every filtering step.",
+    "crumbs": [
+      "Home",
+      "Reference and help",
+      "Troubleshooting"
+    ]
+  },
+  {
+    "objectID": "survival.html",
+    "href": "survival.html",
+    "title": "Survival Analysis",
+    "section": "",
+    "text": "NoteTeaching outline\n\n\n\nThis chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.",
+    "crumbs": [
+      "Home",
+      "Analysis · teaching outlines",
+      "Survival Analysis"
+    ]
+  },
+  {
+    "objectID": "survival.html#always-check",
+    "href": "survival.html#always-check",
+    "title": "Survival Analysis",
+    "section": "Always check",
+    "text": "Always check\n\ntime origin\nevent definition\ncensoring\nfollow-up availability\nproportional hazards assumption",
+    "crumbs": [
+      "Home",
+      "Analysis · teaching outlines",
+      "Survival Analysis"
+    ]
+  },
+  {
+    "objectID": "sources.html",
+    "href": "sources.html",
+    "title": "Official Sources and Verification Register",
+    "section": "",
+    "text": "Public links reviewed September 7, 2026. These are references, not copied manuals. Link availability and release content can change; recheck before applying, importing, recoding or reporting. This educational project is not an official ACS publication.",
+    "crumbs": [
+      "Home",
+      "Reference and help",
+      "Official Sources and Verification Register"
+    ]
+  },
+  {
+    "objectID": "sources.html#maintaining-evidence",
+    "href": "sources.html#maintaining-evidence",
+    "title": "Official Sources and Verification Register",
+    "section": "Maintaining evidence",
+    "text": "Maintaining evidence\nFor an official claim, record organization, document title, version/revision, section, URL, and date verified. For an educational example, mark it fictional and explain its purpose. For a project decision, record rationale, reviewer, and protocol version. Unresolved discrepancies belong in the variable map and should be resolved with the responsible expert before analysis.\nNo official manual, complete coding table, licensed stage definition, or patient record is bundled with this guide.",
+    "crumbs": [
+      "Home",
+      "Reference and help",
+      "Official Sources and Verification Register"
+    ]
+  },
+  {
+    "objectID": "sensitivity.html",
+    "href": "sensitivity.html",
+    "title": "Sensitivity Analyses",
+    "section": "",
+    "text": "Note\n\n\n\nTeaching outline; the template deliberately requires a study-specific implementation.",
+    "crumbs": [
+      "Home",
+      "Analysis · teaching outlines",
+      "Sensitivity Analyses"
+    ]
+  },
+  {
+    "objectID": "sensitivity.html#challenge-a-named-assumption",
+    "href": "sensitivity.html#challenge-a-named-assumption",
+    "title": "Sensitivity Analyses",
+    "section": "Challenge a named assumption",
+    "text": "Challenge a named assumption\nA sensitivity analysis asks whether a conclusion depends on a defensible alternative assumption. Examples include an alternate coding-era restriction, a different exposure definition, a justified missing-data approach, or an analysis addressing treatment timing.\nFor each analysis record the assumption, changed rule, target population/estimand, expected change in sample, and comparison to the primary result. Compare effect sizes, confidence intervals and cohort composition. A change in statistical significance alone is not a robustness criterion.\nPrespecify the main alternatives and label exploratory additions. Do not cycle through exclusions to obtain a preferred p-value. Unmeasured confounding, immortal time and structural unavailability require design-specific expertise; a generic loop over models will not solve them.",
+    "crumbs": [
+      "Home",
+      "Analysis · teaching outlines",
+      "Sensitivity Analyses"
+    ]
+  },
+  {
+    "objectID": "regression.html",
+    "href": "regression.html",
+    "title": "Regression",
+    "section": "",
+    "text": "NoteTeaching outline\n\n\n\nThis chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.\n\n\n\nLogistic regression\nUse for binary outcomes.\nReport:\n\nadjusted odds ratio\n95% confidence interval\np-value\nreference category\nsample size\nmodel specification\n\n\n\nLinear regression\nUse when assumptions are appropriate for continuous outcomes.\nAlways check the distribution and residual behavior.",
+    "crumbs": [
+      "Home",
+      "Analysis · teaching outlines",
+      "Regression"
+    ]
+  },
+  {
+    "objectID": "propensity.html",
+    "href": "propensity.html",
+    "title": "Propensity Methods",
+    "section": "",
+    "text": "NoteTeaching outline\n\n\n\nThis chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.",
+    "crumbs": [
+      "Home",
+      "Analysis · teaching outlines",
+      "Propensity Methods"
+    ]
+  },
+  {
+    "objectID": "propensity.html#required-diagnostics",
+    "href": "propensity.html#required-diagnostics",
+    "title": "Propensity Methods",
+    "section": "Required diagnostics",
+    "text": "Required diagnostics\n\nstandardized mean differences\npre/post balance\nretained sample size\noverlap/common support",
+    "crumbs": [
+      "Home",
+      "Analysis · teaching outlines",
+      "Propensity Methods"
+    ]
+  },
+  {
+    "objectID": "missingness.html",
+    "href": "missingness.html",
+    "title": "Missingness and Data Quality",
+    "section": "",
+    "text": "Note\n\n\n\nTeaching outline. Use release-specific definitions before creating analytic missing values.",
+    "crumbs": [
+      "Home",
+      "Working with data",
+      "Missingness and Data Quality"
+    ]
+  },
+  {
+    "objectID": "missingness.html#audit-in-layers",
+    "href": "missingness.html#audit-in-layers",
+    "title": "Missingness and Data Quality",
+    "section": "Audit in layers",
+    "text": "Audit in layers\nStart with raw-code frequencies and valid-value checks, then distinguish unknown, not applicable, not collected, suppressed and ordinary blank values where your dictionary supports those meanings. Python’s isna() sees software missing values; it does not know registry conventions.\nInspect availability and missingness by diagnosis year, disease scope and exposure group. Check ranges, timing consistency and unexpected categories. Keep an explicit reason field when multiple raw codes become analytic missing. Exact duplicate rows are a signal to investigate identity and import behavior, not automatic permission to delete.",
+    "crumbs": [
+      "Home",
+      "Working with data",
+      "Missingness and Data Quality"
+    ]
+  },
+  {
+    "objectID": "missingness.html#document-the-analysis-denominator",
+    "href": "missingness.html#document-the-analysis-denominator",
+    "title": "Missingness and Data Quality",
+    "section": "Document the analysis denominator",
+    "text": "Document the analysis denominator\nWrite down input N, exclusions and reasons, final N and events for each model. Complete-case analysis can change the population and introduce bias. Imputation cannot manufacture a historically uncollected construct without substantial assumptions. Choose and review the missing-data strategy before fitting; model helpers refuse missing input so this decision cannot be hidden by default deletion.\nThe dictionary lesson provides the map and availability workflow.",
+    "crumbs": [
+      "Home",
+      "Working with data",
+      "Missingness and Data Quality"
+    ]
+  },
+  {
+    "objectID": "machine_learning.html",
+    "href": "machine_learning.html",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "NoteTeaching outline\n\n\n\nThis chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.\n\n\n\nSecondary analyses\nMachine-learning methods can supplement, but should not automatically replace, a clinically interpretable primary model.\nPossible uses:\n\nprediction\nnonlinear relationships\nfeature importance\nSHAP analysis\n\nAlways separate predictive importance from causal interpretation.",
+    "crumbs": [
+      "Home",
+      "Analysis · teaching outlines",
+      "Machine Learning"
+    ]
+  },
+  {
+    "objectID": "import.html",
+    "href": "import.html",
+    "title": "Importing NCDB Data",
+    "section": "",
+    "text": "NoteTeaching outline\n\n\n\nThis chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.",
+    "crumbs": [
+      "Home",
+      "Working with data",
+      "Importing NCDB Data"
+    ]
+  },
+  {
+    "objectID": "import.html#recommended-pipeline",
+    "href": "import.html#recommended-pipeline",
+    "title": "Importing NCDB Data",
+    "section": "Recommended pipeline",
+    "text": "Recommended pipeline\nRaw NCDB file\n    ↓\nRead using supplied file structure\n    ↓\nAssign names and data types\n    ↓\nValidate row/column counts\n    ↓\nAudit missingness\n    ↓\nSave processed local copy\nParquet is convenient for repeated Python analyses because it preserves data types and loads quickly.\nimport pandas as pd\n\ndf = pd.read_parquet(\"data/processed/ncdb_master.parquet\")\nThe exact parser should be adapted to the locally supplied NCDB file format and documentation.",
+    "crumbs": [
+      "Home",
+      "Working with data",
+      "Importing NCDB Data"
+    ]
+  },
+  {
+    "objectID": "dictionary.html",
+    "href": "dictionary.html",
+    "title": "4. Understanding and Navigating the Data Dictionary",
+    "section": "",
+    "text": "Find a field for a clinical concept, check its scope and coding over time, and build a versioned variable map that another researcher can audit.\n\n\n\n\n\n\nNoteOfficial source — verify each field\n\n\n\nStart with the release-specific PUF dictionary and legacy documents. The 2024 dictionary is revised March 2026. Match your release rather than automatically choosing the newest manual. Registry manuals contain fields that are not necessarily present in a PUF.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "4. Understanding and Navigating the Data Dictionary"
+    ]
+  },
+  {
+    "objectID": "dictionary.html#what-you-will-learn",
+    "href": "dictionary.html#what-you-will-learn",
+    "title": "4. Understanding and Navigating the Data Dictionary",
+    "section": "",
+    "text": "Find a field for a clinical concept, check its scope and coding over time, and build a versioned variable map that another researcher can audit.\n\n\n\n\n\n\nNoteOfficial source — verify each field\n\n\n\nStart with the release-specific PUF dictionary and legacy documents. The 2024 dictionary is revised March 2026. Match your release rather than automatically choosing the newest manual. Registry manuals contain fields that are not necessarily present in a PUF.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "4. Understanding and Navigating the Data Dictionary"
+    ]
+  },
+  {
+    "objectID": "dictionary.html#search-by-concept-then-by-exact-variable",
+    "href": "dictionary.html#search-by-concept-then-by-exact-variable",
+    "title": "4. Understanding and Navigating the Data Dictionary",
+    "section": "Search by concept, then by exact variable",
+    "text": "Search by concept, then by exact variable\nEducational explanation. Suppose your question includes “stage.” That word alone is insufficient: you may need clinical stage before treatment, pathologic stage after surgery, or another defined staging construct. A convenient column name does not settle the scientific question.\n\nWrite the concept and when it should be measured relative to the exposure.\nSearch the dictionary using the concept and likely synonyms. Read the whole item entry, including notes and related fields.\nRecord the exact raw name and item identifier, where available. Do not rename raw columns in place.\nCheck which cases and diagnosis years the item applies to. Look for changes in definition, coding system, collection requirements, and missing-value conventions.\nIdentify each possible raw value’s meaning using your local documentation. Keep code-like fields as strings during import.\nRead the matching release changes and linked coding resources. A different manual’s similarly named item may have a different purpose.\nWrite your proposed analytic transformation separately; request mentor or registrar review where the meaning is unresolved.\nAfter authorized import, compare actual codes and year-specific frequencies with expectations. Unexpected values should trigger investigation, not automatic coercion.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "4. Understanding and Navigating the Data Dictionary"
+    ]
+  },
+  {
+    "objectID": "dictionary.html#a-variable-map-is-an-analysis-contract",
+    "href": "dictionary.html#a-variable-map-is-an-analysis-contract",
+    "title": "4. Understanding and Navigating the Data Dictionary",
+    "section": "A variable map is an analysis contract",
+    "text": "A variable map is an analysis contract\nThe template variable_map.csv is a blank metadata table, not patient data. Use one row per source field and coding era when necessary.\n\n\n\n\n\n\n\nField group\nWhat to record\n\n\n\n\nConcept and raw identity\nConcept, exact variable name, item ID, release\n\n\nSource evidence\nSource URL/title, revision, page/section, date checked; summarize in your own words\n\n\nScope\nApplicable sites, diagnosis years, definition/coding changes\n\n\nRaw representation\nData type, valid values, distinct unknown/not-applicable codes\n\n\nAnalytic decision\nNew name, transformation, missingness rule, model reference category\n\n\nReview and validation\nDecision rationale, reviewer, date, checks and unresolved issues\n\n\n\nDo not paste entire proprietary code tables into this public guide. Record pointers and the minimal original notes needed to audit your work within permitted use.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "4. Understanding and Navigating the Data Dictionary"
+    ]
+  },
+  {
+    "objectID": "dictionary.html#worked-example-fictional-codes",
+    "href": "dictionary.html#worked-example-fictional-codes",
+    "title": "4. Understanding and Navigating the Data Dictionary",
+    "section": "Worked example: fictional codes",
+    "text": "Worked example: fictional codes\nAssume an invented field DEMO_MARKER uses P for present, A for absent, U for unknown, and N for not applicable. These are not NCDB codes.\nYour source notes preserve all four meanings. A project decision might produce marker_present with 1 for P, 0 for A, and missing for the other two. Keep a companion reason field so U and N remain distinguishable. Mapping both to numeric missing is not permission to forget their different denominators.\nimport pandas as pd\nraw = pd.Series([\"P\", \"A\", \"U\", \"N\"], dtype=\"string\")\nassert raw.isin([\"P\", \"A\", \"U\", \"N\"]).all()\nanalytic = raw.map({\"P\": 1, \"A\": 0}).astype(\"Int64\")\nreason = raw.map({\"U\": \"unknown\", \"N\": \"not applicable\"})\nIf a new value X appears, stop and establish its meaning. Do not convert every unrecognized code to missing silently.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "4. Understanding and Navigating the Data Dictionary"
+    ]
+  },
+  {
+    "objectID": "dictionary.html#build-an-availability-matrix",
+    "href": "dictionary.html#build-an-availability-matrix",
+    "title": "4. Understanding and Navigating the Data Dictionary",
+    "section": "Build an availability matrix",
+    "text": "Build an availability matrix\nFor each required field, make a row for each diagnosis year or documented era. Distinguish collected and applicable, not collected, not applicable, and uncertain. Then inspect observed missingness within the applicable cases. An empty column before collection began is structural unavailability; it is not ordinary sporadic missingness.\nProject decision. If the exposure is unavailable for part of the proposed period, choose a justified restriction, a documented harmonization, or a revised question. Do not invent an equivalent field or impute an unmeasured historical construct without methodological review.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "4. Understanding and Navigating the Data Dictionary"
+    ]
+  },
+  {
+    "objectID": "dictionary.html#practice-and-readiness",
+    "href": "dictionary.html#practice-and-readiness",
+    "title": "4. Understanding and Navigating the Data Dictionary",
+    "section": "Practice and readiness",
+    "text": "Practice and readiness\nComplete a map entry for one required concept, including source revision, years, missing codes, a proposed transformation, and an explicit unresolved question. Ask another student to reproduce the decision from your notes. You are ready when they can distinguish official meaning from your analytic choice.\nNext: Coding Systems.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "4. Understanding and Navigating the Data Dictionary"
+    ]
+  },
+  {
+    "objectID": "data_protection.html",
+    "href": "data_protection.html",
+    "title": "Data Protection and Safe Sharing",
+    "section": "",
+    "text": "This guide contains original text, source code, blank metadata templates and invented examples. Keep actual NCDB records in institution-approved storage outside the guide. Patient-level derived tables, predictions, matched cohorts, imputation files, model objects, notebooks, logs and screenshots can be sensitive too.\nThe .gitignore blocks common data formats, archives, credentials, environments, website output and generated projects. Only named blank CSV metadata templates are exempted. Do not turn those templates into patient tables. .gitignore does not remove already-tracked files and can be bypassed with force-add; it is one guard, not a security boundary.",
+    "crumbs": [
+      "Home",
+      "Reference and help",
+      "Data Protection and Safe Sharing"
+    ]
+  },
+  {
+    "objectID": "data_protection.html#repository-boundary",
+    "href": "data_protection.html#repository-boundary",
+    "title": "Data Protection and Safe Sharing",
+    "section": "",
+    "text": "This guide contains original text, source code, blank metadata templates and invented examples. Keep actual NCDB records in institution-approved storage outside the guide. Patient-level derived tables, predictions, matched cohorts, imputation files, model objects, notebooks, logs and screenshots can be sensitive too.\nThe .gitignore blocks common data formats, archives, credentials, environments, website output and generated projects. Only named blank CSV metadata templates are exempted. Do not turn those templates into patient tables. .gitignore does not remove already-tracked files and can be bypassed with force-add; it is one guard, not a security boundary.",
+    "crumbs": [
+      "Home",
+      "Reference and help",
+      "Data Protection and Safe Sharing"
+    ]
+  },
+  {
+    "objectID": "data_protection.html#before-a-commit",
+    "href": "data_protection.html#before-a-commit",
+    "title": "Data Protection and Safe Sharing",
+    "section": "Before a commit",
+    "text": "Before a commit\nAfter staging, run python tools/check_repository.py from the guide root. It checks the Git index, including staged content, and blocks common risky formats, local paths, oversized files and some credential patterns. Review git diff --cached and git diff --cached --stat locally. Never paste a diff containing data into a public review tool.\nFor a folder without Git metadata, python tools/check_repository.py --source-tree checks source files while excluding local/generated directories. It is not a full disk audit. The tool cannot recognize every secret, patient record hidden in text, or disclosure through aggregate results.\nTo enable the included local pre-commit hook after initializing Git:\ngit config core.hooksPath .githooks\nRun commits from an environment where python resolves to your project interpreter. Hooks can be bypassed; the included CI guard provides a second check, not authorization to upload records.",
+    "crumbs": [
+      "Home",
+      "Reference and help",
+      "Data Protection and Safe Sharing"
+    ]
+  },
+  {
+    "objectID": "data_protection.html#publication-needs-a-separate-review",
+    "href": "data_protection.html#publication-needs-a-separate-review",
+    "title": "Data Protection and Safe Sharing",
+    "section": "Publication needs a separate review",
+    "text": "Publication needs a separate review\n\n\n\n\n\n\nNoteOfficial source — verify your agreement\n\n\n\nThe current PUF FAQ discusses restrictions on reporting small cells and the need to prevent reconstruction. Apply your executed agreement and institutional requirements; an example threshold in code is not the governing rule.\n\n\nEducational explanation. If a total is 100 and one visible category is 97, hiding the other category does not hide its count of 3. Percentages, margins, complementary categories, repeated tables and KM risk tables can reveal counts. The suppression helper only formats one count and requires an explicit threshold. It does not perform complementary suppression or certify a table.\nProject decision. Name a reviewer, applicable rule, approved output destination, and review date. Publish only cleared aggregate artifacts. Do not publish the entire analysis directory or its generated project.",
+    "crumbs": [
+      "Home",
+      "Reference and help",
+      "Data Protection and Safe Sharing"
+    ]
+  },
+  {
+    "objectID": "data_protection.html#if-data-were-staged-or-shared",
+    "href": "data_protection.html#if-data-were-staged-or-shared",
+    "title": "Data Protection and Safe Sharing",
+    "section": "If data were staged or shared",
+    "text": "If data were staged or shared\nStop the commit/upload. Keep incident details in approved channels and notify the responsible PI/privacy or security team. Removing a file from the working tree does not remove history, remote copies, logs or backups. Follow institutional incident procedures; do not attempt an undocumented history rewrite or claim that a deleted file has been recalled.",
+    "crumbs": [
+      "Home",
+      "Reference and help",
+      "Data Protection and Safe Sharing"
+    ]
+  },
+  {
+    "objectID": "coding_systems.html",
+    "href": "coding_systems.html",
+    "title": "5. Coding Systems",
+    "section": "",
+    "text": "Recognize which reference answers which coding question and avoid treating different years, staging contexts, and tumor schemas as interchangeable.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "5. Coding Systems"
+    ]
+  },
+  {
+    "objectID": "coding_systems.html#what-you-will-learn",
+    "href": "coding_systems.html#what-you-will-learn",
+    "title": "5. Coding Systems",
+    "section": "",
+    "text": "Recognize which reference answers which coding question and avoid treating different years, staging contexts, and tumor schemas as interchangeable.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "5. Coding Systems"
+    ]
+  },
+  {
+    "objectID": "coding_systems.html#a-code-needs-a-context",
+    "href": "coding_systems.html#a-code-needs-a-context",
+    "title": "5. Coding Systems",
+    "section": "A code needs a context",
+    "text": "A code needs a context\nEducational explanation. A value has meaning only together with its field, disease context, coding version, and diagnosis year. Codes are labels unless the definition establishes a quantitative scale. For example, a treatment category numbered 3 is not necessarily “three times” category 1.\n\n\n\n\n\n\n\n\nSystem or resource\nQuestion it helps answer\nWhat you must verify\n\n\n\n\nICD-O topography\nWhere did the primary tumor arise?\nApplicable site code and version\n\n\nICD-O morphology\nWhat tumor type and behavior were recorded?\nHistology, behavior, and site compatibility\n\n\nAJCC stage\nWhat extent of disease is represented?\nDisease schema, edition, clinical/pathologic context, timing\n\n\nSTORE / historical FORDS\nHow were registry items collected?\nDiagnosis-year manual and whether the item is in your PUF\n\n\nCollaborative Stage / SSFs\nWhat did an older site-specific factor mean?\nSchema, factor number, year, and definition\n\n\nSSDI and grade manuals\nWhat do site-specific or grade items mean?\nApplicable schema, manual version, timing, and availability\n\n\nSEER*Rx\nHow is a drug classified for registry coding?\nApplicable guidance; do not infer patient regimen detail\n\n\n\nOfficial starting points: SEER ICD-O materials, SEER introduction to site and morphology, ACS registry manuals, and the coding-resource links on the ACS PUF page.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "5. Coding Systems"
+    ]
+  },
+  {
+    "objectID": "coding_systems.html#site-is-not-histology",
+    "href": "coding_systems.html#site-is-not-histology",
+    "title": "5. Coding Systems",
+    "section": "Site is not histology",
+    "text": "Site is not histology\nTopography describes location; histology describes tumor type. Neither alone necessarily identifies the cohort you want. Review the official organ-site groupings and your disease-specific definition before filtering. A file’s name is a starting point for investigation, not a complete eligibility rule.\nICD-O is not interchangeable with ICD-10 diagnosis billing codes. SEER’s ICD-O materials also identify diagnosis-year changes in site–morphology validation resources. Do not apply a current validation table to every historical year without checking applicability.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "5. Coding Systems"
+    ]
+  },
+  {
+    "objectID": "coding_systems.html#stage-is-more-than-a-number",
+    "href": "coding_systems.html#stage-is-more-than-a-number",
+    "title": "5. Coding Systems",
+    "section": "Stage is more than a number",
+    "text": "Stage is more than a number\nClinical and pathologic assessments use different information at different points in care. A postoperative assessment can be affected by treatment and selection into surgery. Substituting it for baseline disease severity can change the scientific interpretation of a model.\nProject decision. State the intended stage construct, required timing, precedence rule if multiple fields exist, and approach to discordance. Retain the original fields and a flag identifying the source used. If two staging editions differ, do not assume that identical labels represent identical disease severity. A universal conversion table is not supplied here.\nUse the release dictionary and linked AJCC resources to verify the edition and schema. This guide does not reproduce licensed staging tables.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "5. Coding Systems"
+    ]
+  },
+  {
+    "objectID": "coding_systems.html#changing-site-specific-fields",
+    "href": "coding_systems.html#changing-site-specific-fields",
+    "title": "5. Coding Systems",
+    "section": "Changing site-specific fields",
+    "text": "Changing site-specific fields\nA historical numbered site-specific factor and a newer named item may both sound like a biomarker, yet differ in definition, specimen context, collection years, or codes. Check source meaning before combining them. Document a separate transformation for each supported era; otherwise label the era unavailable or restrict the study with a rationale.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "5. Coding Systems"
+    ]
+  },
+  {
+    "objectID": "coding_systems.html#treatment-and-grade",
+    "href": "coding_systems.html#treatment-and-grade",
+    "title": "5. Coding Systems",
+    "section": "Treatment and grade",
+    "text": "Treatment and grade\nDistinguish treatment at the reporting facility from summary treatment where your fields make that distinction. Do not convert a treatment summary into dose, regimen, adherence, or recurrence treatment detail that it does not contain. Likewise, distinguish grade context before combining columns. The correct recode depends on the item and disease, not a generic number range.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "5. Coding Systems"
+    ]
+  },
+  {
+    "objectID": "coding_systems.html#practice-the-same-code-in-two-eras",
+    "href": "coding_systems.html#practice-the-same-code-in-two-eras",
+    "title": "5. Coding Systems",
+    "section": "Practice: the same code in two eras",
+    "text": "Practice: the same code in two eras\nIn an invented dataset, era A uses 1 = marker present; era B uses 1 = test not performed. A naive merge would combine incompatible categories. Write two mapping rules and a reason for every missing value. Then explain why looking only at the distribution of 1 cannot detect this mistake.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "5. Coding Systems"
+    ]
+  },
+  {
+    "objectID": "coding_systems.html#readiness-check",
+    "href": "coding_systems.html#readiness-check",
+    "title": "5. Coding Systems",
+    "section": "Readiness check",
+    "text": "Readiness check\nFor one planned field, identify its coding resource, version, disease scope, years, and timing. If any is unknown, put the uncertainty in your variable map before analysis. Next: Computer Setup.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "5. Coding Systems"
+    ]
+  },
+  {
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "Analysis Overview",
+    "section": "",
+    "text": "The templates are teaching components. Read ANALYSIS_GUIDE.md in your generated project for required variables, assumptions, NCDB pitfalls, code behavior and interpretation for every script. The synthetic demo tests mechanics; it does not validate a clinical analysis.\n\n\n\nTask\nBegin with\nDecision that must precede code\n\n\n\n\nUnderstand the cohort\nMissingness, descriptive summaries\nDenominators, coding validity and eligibility\n\n\nDescribe group characteristics\nTable 1\nCategory definitions and missingness reporting\n\n\nModel a binary endpoint\nLogistic regression\nOutcome window, confounders, encoding and functional form\n\n\nDescribe time to event\nKaplan–Meier\nTime origin, event/censor coding and groups\n\n\nAdjust a time-to-event comparison\nCox regression\nPH, timing, confounders and facility correlation\n\n\nBalance measured baseline covariates\nPropensity methods\nTarget estimand, overlap, design and inference\n\n\nChallenge assumptions\nSensitivity analyses\nNamed assumption and justified alternate rule\n\n\nDevelop prediction\nMachine learning\nPrediction target, time horizon and validation strategy",
+    "crumbs": [
+      "Home",
+      "Analysis · teaching outlines",
+      "Analysis Overview"
+    ]
+  },
+  {
+    "objectID": "analysis.html#select-a-method-from-the-question",
+    "href": "analysis.html#select-a-method-from-the-question",
+    "title": "Analysis Overview",
+    "section": "",
+    "text": "The templates are teaching components. Read ANALYSIS_GUIDE.md in your generated project for required variables, assumptions, NCDB pitfalls, code behavior and interpretation for every script. The synthetic demo tests mechanics; it does not validate a clinical analysis.\n\n\n\nTask\nBegin with\nDecision that must precede code\n\n\n\n\nUnderstand the cohort\nMissingness, descriptive summaries\nDenominators, coding validity and eligibility\n\n\nDescribe group characteristics\nTable 1\nCategory definitions and missingness reporting\n\n\nModel a binary endpoint\nLogistic regression\nOutcome window, confounders, encoding and functional form\n\n\nDescribe time to event\nKaplan–Meier\nTime origin, event/censor coding and groups\n\n\nAdjust a time-to-event comparison\nCox regression\nPH, timing, confounders and facility correlation\n\n\nBalance measured baseline covariates\nPropensity methods\nTarget estimand, overlap, design and inference\n\n\nChallenge assumptions\nSensitivity analyses\nNamed assumption and justified alternate rule\n\n\nDevelop prediction\nMachine learning\nPrediction target, time horizon and validation strategy",
+    "crumbs": [
+      "Home",
+      "Analysis · teaching outlines",
+      "Analysis Overview"
+    ]
+  },
+  {
+    "objectID": "analysis.html#use-an-explicit-sequence",
+    "href": "analysis.html#use-an-explicit-sequence",
+    "title": "Analysis Overview",
+    "section": "Use an explicit sequence",
+    "text": "Use an explicit sequence\nDefine the question and protocol → verify variables → import and audit → build the cohort → recode → inspect missingness and Table 1 → implement the approved primary analysis → assess diagnostics → run prespecified sensitivities → review outputs and reporting.\nReal-data model helpers do not select covariates, drop missing rows, tune definitions or publish results. Facility clustering, missing-data alternatives, causal estimands and treatment timing require additional study-specific implementation and expert review.",
+    "crumbs": [
+      "Home",
+      "Analysis · teaching outlines",
+      "Analysis Overview"
+    ]
+  },
+  {
+    "objectID": "access.html",
+    "href": "access.html",
+    "title": "2. Obtaining Access",
+    "section": "",
+    "text": "Prepare an application with your faculty investigator, locate the institutional contact, and distinguish data access from institutional permission to conduct the study. You can complete the synthetic lessons while waiting.\n\n\n\n\n\n\nNoteOfficial source — verify before applying\n\n\n\nThe ACS PUF portal describes application-based access for investigators associated with CoC-accredited programs. The June 2026 application instructions specify PI participation, a program support letter, a facility-based analyst, and QPort applicant designation through the program’s Primary Contact. Use the live instructions for required fields and deadlines.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "2. Obtaining Access"
+    ]
+  },
+  {
+    "objectID": "access.html#what-you-will-learn",
+    "href": "access.html#what-you-will-learn",
+    "title": "2. Obtaining Access",
+    "section": "",
+    "text": "Prepare an application with your faculty investigator, locate the institutional contact, and distinguish data access from institutional permission to conduct the study. You can complete the synthetic lessons while waiting.\n\n\n\n\n\n\nNoteOfficial source — verify before applying\n\n\n\nThe ACS PUF portal describes application-based access for investigators associated with CoC-accredited programs. The June 2026 application instructions specify PI participation, a program support letter, a facility-based analyst, and QPort applicant designation through the program’s Primary Contact. Use the live instructions for required fields and deadlines.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "2. Obtaining Access"
+    ]
+  },
+  {
+    "objectID": "access.html#who-does-what",
+    "href": "access.html#who-does-what",
+    "title": "2. Obtaining Access",
+    "section": "Who does what?",
+    "text": "Who does what?\nEducational explanation. Start by identifying people, not by downloading software.\n\n\n\n\n\n\n\nRole\nPractical preparation task\n\n\n\n\nFaculty principal investigator (PI)\nOwn the proposal, verify eligibility, and complete required agreements\n\n\nStudent or researcher\nDraft feasibility notes, learn the dictionary, and document the workflow\n\n\nCancer registrar / QPort contact\nHelp identify the correct program contact and application access route\n\n\nAnalyst or statistician\nAssess data feasibility, design, resources, and analysis requirements\n\n\nInstitutional research/privacy office\nDetermine local review, storage, access, and retention requirements\n\n\n\nBeing a student at a hospital does not automatically authorize downloading or analyzing its PUF. Work through the PI’s approved team and access process.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "2. Obtaining Access"
+    ]
+  },
+  {
+    "objectID": "access.html#prepare-a-small-application-packet",
+    "href": "access.html#prepare-a-small-application-packet",
+    "title": "2. Obtaining Access",
+    "section": "Prepare a small application packet",
+    "text": "Prepare a small application packet\n\nDraft the population, exposure, comparator, and outcome in plain language.\nVerify that the requested organ-site file and diagnosis years can support the question. A familiar disease label is not a substitute for checking file groupings.\nList required fields and unresolved coding questions in your variable map.\nExplain the primary analysis, missing-data plan, and principal limitations. Have a mentor assess whether the question is feasible.\nAssemble personnel information and supporting materials using the current official checklist. Keep biosketches and application records in approved local storage.\nAsk the QPort contact to confirm the PI’s applicant designation; then follow the official portal workflow.\nRecord approval and download notifications, applicable agreements, and the permitted users before obtaining the files.\n\nThe current FAQ restricts data access outside the facility and describes how to update investigators. A collaborator’s expertise is not permission to send them data. Resolve team changes with the PI and NCDB.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "2. Obtaining Access"
+    ]
+  },
+  {
+    "objectID": "access.html#institutional-review-is-a-separate-step",
+    "href": "access.html#institutional-review-is-a-separate-step",
+    "title": "2. Obtaining Access",
+    "section": "Institutional review is a separate step",
+    "text": "Institutional review is a separate step\nProject decision. Obtain your institution’s determination about IRB or other research review. Do not copy another paper’s “exempt” or “not human subjects research” statement into your protocol. Record the actual determination, date, reference number, and any conditions locally.\nAgree where files may reside, who may access them, how backups work, and what happens when a student graduates. Use institutional channels for credentials; do not save passwords in Python, YAML, Markdown, or Git.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "2. Obtaining Access"
+    ]
+  },
+  {
+    "objectID": "access.html#your-access-record",
+    "href": "access.html#your-access-record",
+    "title": "2. Obtaining Access",
+    "section": "Your access record",
+    "text": "Your access record\nIn approved local storage, maintain a short record with: PI and analyst; authorized team; project purpose; approved file/site; approval reference; storage owner; permitted storage location; training completion; download deadline from the notification; and retention/handoff obligations. The reusable template contains access_record.md with blank fields.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "2. Obtaining Access"
+    ]
+  },
+  {
+    "objectID": "access.html#if-access-does-not-work",
+    "href": "access.html#if-access-does-not-work",
+    "title": "2. Obtaining Access",
+    "section": "If access does not work",
+    "text": "If access does not work\nConfirm the applicant role with the institutional contact. Follow official password recovery. Do not borrow another person’s login. A download archive may use a different password from the portal; follow the instructions supplied with that download.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "2. Obtaining Access"
+    ]
+  },
+  {
+    "objectID": "access.html#practice-and-readiness",
+    "href": "access.html#practice-and-readiness",
+    "title": "2. Obtaining Access",
+    "section": "Practice and readiness",
+    "text": "Practice and readiness\nWrite a draft email to your mentor identifying the institutional contact, your question, and three unresolved feasibility items. You do not need to send it to complete the lesson. You are ready for the next step when you can identify the PI, access route, local review process, and approved storage owner.\nNext: Understand the PUF and downloaded files.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "2. Obtaining Access"
+    ]
+  },
+  {
+    "objectID": "cleaning.html",
+    "href": "cleaning.html",
+    "title": "Cleaning and Recoding",
+    "section": "",
+    "text": "NoteTeaching outline\n\n\n\nThis chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.\n\n\n\nKey principles\n\nKeep raw variables unchanged\nCreate new analytic variables\nDocument every recode\nDistinguish missing, unknown, and not applicable\nAvoid duplicate representations of the same construct\nCheck coding changes by diagnosis year\n\nExample recodes must follow the release-specific variable map. Keep an age top-code or unknown code from becoming an ordinary continuous age accidentally. Use the fictional mapping in the dictionary lesson to practice without importing real records.",
+    "crumbs": [
+      "Home",
+      "Working with data",
+      "Cleaning and Recoding"
+    ]
+  },
+  {
+    "objectID": "cohort.html",
+    "href": "cohort.html",
+    "title": "Building the Cohort",
+    "section": "",
+    "text": "NoteTeaching outline\n\n\n\nThis chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.\n\n\n\nDefine the cohort before running models\nWrite inclusion and exclusion criteria in plain language before coding them.\nExample:\nInitial disease-site cohort\n→ diagnosis years\n→ age restriction\n→ histology restriction\n→ known exposure\n→ known outcome\n→ valid staging\n→ analytic cohort\nThe script should record the number of patients remaining after every step.",
+    "crumbs": [
+      "Home",
+      "Working with data",
+      "Building the Cohort"
+    ]
+  },
+  {
+    "objectID": "descriptive.html",
+    "href": "descriptive.html",
+    "title": "Descriptive Analysis",
+    "section": "",
+    "text": "NoteTeaching outline\n\n\n\nThis chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.\n\n\n\nStart here before regression\nAlways inspect:\n\ncohort size\nmissingness\ndistributions\nimplausible values\ncategory frequencies\noutcome prevalence\nexposure prevalence\n\nDo not fit the final model until these checks are complete.",
+    "crumbs": [
+      "Home",
+      "Analysis · teaching outlines",
+      "Descriptive Analysis"
+    ]
+  },
+  {
+    "objectID": "figures_tables.html",
+    "href": "figures_tables.html",
+    "title": "Figures and Tables",
+    "section": "",
+    "text": "NoteTeaching outline\n\n\n\nThis chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.\n\n\n\nStandard outputs\n\nCohort flow diagram\nTable 1\nRegression results\nKaplan-Meier curves\nForest plots\nSensitivity analyses\n\nAll exported outputs should be reproducible from scripts.",
+    "crumbs": [
+      "Home",
+      "Reporting and handoff",
+      "Figures and Tables"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NCDB Research Guide",
+    "section": "",
+    "text": "A practical learning path from your first research question to a reproducible analysis. You do not need NCDB access or prior Python experience to begin.",
+    "crumbs": [
+      "Home",
+      "NCDB Research Guide"
+    ]
+  },
+  {
+    "objectID": "index.html#begin-with-the-foundations",
+    "href": "index.html#begin-with-the-foundations",
+    "title": "NCDB Research Guide",
+    "section": "Begin with the foundations",
+    "text": "Begin with the foundations\n\n\n\nOrder\nLesson\nWhat you will leave with\n\n\n\n\n1\nStart Here: What is NCDB?\nA feasible question and a clear description of the population\n\n\n2\nObtaining Access\nAn application preparation checklist and a local approvals record\n\n\n3\nThe PUF and downloaded files\nA release inventory and a safe storage plan\n\n\n4\nNavigating the Data Dictionary\nYour first documented variable-map entry\n\n\n5\nCoding Systems\nA plan for checking site, histology, stage, and year-specific coding\n\n\n6\nComputer, VS Code, and Python Setup\nA working environment and a successful synthetic practice run\n\n\n\nRead these six lessons in order. Each includes a practice task and a readiness check. Use the sidebar to move between lessons or search for a term such as “unknown,” “PUF,” or “clinical stage.”",
+    "crumbs": [
+      "Home",
+      "NCDB Research Guide"
+    ]
+  },
+  {
+    "objectID": "index.html#choose-your-next-step",
+    "href": "index.html#choose-your-next-step",
+    "title": "NCDB Research Guide",
+    "section": "Choose your next step",
+    "text": "Choose your next step\nStill waiting for access? Complete the foundations and synthetic walkthrough. All practice records are invented.\nHave approved data? Start with the import plan, variable map, and cohort definition. Keep records in approved institutional storage outside this guide.\nReady to analyze? Use the analysis overview to select a method with your mentor. The later chapters are introductory checklists and the scripts are teaching components, not a validated end-to-end NCDB analysis pipeline.\nPreparing a manuscript? Review pitfalls, reporting, and reproducibility and handoff.",
+    "crumbs": [
+      "Home",
+      "NCDB Research Guide"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-read-this-guide",
+    "href": "index.html#how-to-read-this-guide",
+    "title": "NCDB Research Guide",
+    "section": "How to read this guide",
+    "text": "How to read this guide\n\n\n\n\n\n\nNoteOfficial source — verify against your release\n\n\n\nLinks point to ACS/NCDB or other responsible organizations. Source summaries are original paraphrases, not a replacement for the applicable dictionary, manual, or agreement. Public sources were checked on September 7, 2026; requirements may change. See the source register.\n\n\n\n\n\n\n\n\nTipEducational explanation\n\n\n\nOur explanations and fictional examples help you learn the workflow. They do not establish official code meanings or clinical conclusions.\n\n\n\n\n\n\n\n\nImportantProject decision — document and review\n\n\n\nEligibility rules, study years, confounders, missing-data methods, model specification, and disclosure review belong to your study protocol. Record who approved each decision and why.",
+    "crumbs": [
+      "Home",
+      "NCDB Research Guide"
+    ]
+  },
+  {
+    "objectID": "index.html#keep-research-data-out-of-the-guide",
+    "href": "index.html#keep-research-data-out-of-the-guide",
+    "title": "NCDB Research Guide",
+    "section": "Keep research data out of the guide",
+    "text": "Keep research data out of the guide\nThis repository holds code, original teaching material, and synthetic examples only. Never copy patient rows, screenshots of records, model prediction files, credentials, or restricted downloads into it. A private Git repository is also a sharing system. Read data protection before working with approved records.",
+    "crumbs": [
+      "Home",
+      "NCDB Research Guide"
+    ]
+  },
+  {
+    "objectID": "index.html#development-status",
+    "href": "index.html#development-status",
+    "title": "NCDB Research Guide",
+    "section": "Development status",
+    "text": "Development status\nThe six foundation lessons and synthetic workflow are developed for onboarding. Advanced lessons remain explicitly marked teaching outlines. They cover the intended full workflow but still need site-specific examples, expert methodological review, and expanded exercises before serving as a comprehensive analysis curriculum.",
+    "crumbs": [
+      "Home",
+      "NCDB Research Guide"
+    ]
+  },
+  {
+    "objectID": "manuscript.html",
+    "href": "manuscript.html",
+    "title": "Manuscript Reporting",
+    "section": "",
+    "text": "NoteTeaching outline\n\n\n\nThis chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.\n\n\n\nMethods checklist\nDescribe:\n\ndata source\nstudy design\ndiagnosis years\ninclusion/exclusion criteria\nexposure\noutcome\ncovariates\nmissing-data strategy\nstatistical methods\nsensitivity analyses\n\nAvoid wording that implies population-based incidence unless appropriate for the data source.",
+    "crumbs": [
+      "Home",
+      "Reporting and handoff",
+      "Manuscript Reporting"
+    ]
+  },
+  {
+    "objectID": "pitfalls.html",
+    "href": "pitfalls.html",
+    "title": "Common NCDB Pitfalls",
+    "section": "",
+    "text": "NoteTeaching outline\n\n\n\nThis chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.\n\n\n\nCommon errors\n\ntreating numeric codes as continuous values\nmixing clinical and pathologic stage without a prespecified rule\nignoring diagnosis-year coding changes\nfailing to distinguish unknown from absent\nusing overlapping predictors\noveradjusting for mediators\ninterpreting association as causation\nstarting analysis before cohort definition\nignoring missing-data patterns\nfailing to validate derived variables\nsharing restricted patient-level data",
+    "crumbs": [
+      "Home",
+      "Reporting and handoff",
+      "Common NCDB Pitfalls"
+    ]
+  },
+  {
+    "objectID": "puf.html",
+    "href": "puf.html",
+    "title": "3. Understanding the PUF and Downloaded Files",
+    "section": "",
+    "text": "Identify the role of each downloaded file, record the exact release, and explain why a text file needs a matching layout before it can become a trustworthy table.\n\n\n\n\n\n\nNoteOfficial source — release matters\n\n\n\nACS distributes PUF data as flat text with companion SAS/SPSS scripts; the PUF resource page links current and legacy materials. The 2024 Getting Started document identifies diagnosis years 2004–2024 for that release. It also notes that item availability depends on diagnosis year. Use the documentation matching the files actually approved for your project.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "3. Understanding the PUF and Downloaded Files"
+    ]
+  },
+  {
+    "objectID": "puf.html#what-you-will-learn",
+    "href": "puf.html#what-you-will-learn",
+    "title": "3. Understanding the PUF and Downloaded Files",
+    "section": "",
+    "text": "Identify the role of each downloaded file, record the exact release, and explain why a text file needs a matching layout before it can become a trustworthy table.\n\n\n\n\n\n\nNoteOfficial source — release matters\n\n\n\nACS distributes PUF data as flat text with companion SAS/SPSS scripts; the PUF resource page links current and legacy materials. The 2024 Getting Started document identifies diagnosis years 2004–2024 for that release. It also notes that item availability depends on diagnosis year. Use the documentation matching the files actually approved for your project.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "3. Understanding the PUF and Downloaded Files"
+    ]
+  },
+  {
+    "objectID": "puf.html#three-different-dates",
+    "href": "puf.html#three-different-dates",
+    "title": "3. Understanding the PUF and Downloaded Files",
+    "section": "Three different dates",
+    "text": "Three different dates\nEducational explanation. A diagnosis year belongs to a case. A PUF release identifies an edition of the extract. A download date records when your team obtained it. They are not interchangeable. A recently downloaded release can contain many earlier diagnosis years, and those years do not guarantee every field was collected throughout.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "3. Understanding the PUF and Downloaded Files"
+    ]
+  },
+  {
+    "objectID": "puf.html#inventory-before-opening-data",
+    "href": "puf.html#inventory-before-opening-data",
+    "title": "3. Understanding the PUF and Downloaded Files",
+    "section": "Inventory before opening data",
+    "text": "Inventory before opening data\n\n\n\n\n\n\n\n\nItem\nPurpose\nWhat to record locally\n\n\n\n\nCompressed/encrypted download\nDelivery container\nOriginal filename, release, byte size, download date\n\n\nExtracted text data\nCase records\nExact path, checksum, file size; keep unchanged\n\n\nLayout / import script\nPositions, types, names, and labels\nRelease match and script version\n\n\nPUF dictionary\nMeanings, valid codes, availability, notes\nTitle, revision date, item references\n\n\nGetting Started and changes notes\nRelease context and cautions\nApplicable version and issues for your study\n\n\nLocal analysis outputs\nYour transformations\nInput checksum, code version, run date\n\n\n\nThe project template supplies a blank file_manifest.csv. A checksum is a file fingerprint: it helps detect accidental changes, but it does not prove that a file is complete or scientifically valid. Keep manifests describing restricted downloads with the local project.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "3. Understanding the PUF and Downloaded Files"
+    ]
+  },
+  {
+    "objectID": "puf.html#why-double-clicking-is-not-importing",
+    "href": "puf.html#why-double-clicking-is-not-importing",
+    "title": "3. Understanding the PUF and Downloaded Files",
+    "section": "Why double-clicking is not importing",
+    "text": "Why double-clicking is not importing\nA text file may use fixed positions rather than commas. In a fixed-width layout, a field occupies a defined character interval. An incorrect interval can produce plausible-looking but incorrect values without raising an error. Leading zeros can disappear if codes become integers.\nThe official 2024 Quick Start Data Structure supplies release-specific layout information. This guide intentionally does not reproduce that layout. Follow the synthetic walkthrough to learn position conversion with invented fields.\nFor a real parser, reconcile the supplied positions, field lengths, types, encoding, and record length. Validate a small authorized local sample against the supplied import method before processing the whole file. Never use a screenshot or copied patient row to ask for help here.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "3. Understanding the PUF and Downloaded Files"
+    ]
+  },
+  {
+    "objectID": "puf.html#cases-identifiers-and-releases",
+    "href": "puf.html#cases-identifiers-and-releases",
+    "title": "3. Understanding the PUF and Downloaded Files",
+    "section": "Cases, identifiers, and releases",
+    "text": "Cases, identifiers, and releases\nThe 2024 Getting Started document describes randomly assigned case identifiers that change between releases and cannot link cases across cancer sites. The FAQ advises against combining old and new PUF versions.\nEducational explanation. Do not append a newer release to an older one to “add another year.” Repeated records and updated information can change counts and estimates. Treat each release as a separately documented input. Do not assume one case equals a uniquely linkable person across files.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "3. Understanding the PUF and Downloaded Files"
+    ]
+  },
+  {
+    "objectID": "puf.html#storage-plan",
+    "href": "puf.html#storage-plan",
+    "title": "3. Understanding the PUF and Downloaded Files",
+    "section": "Storage plan",
+    "text": "Storage plan\nKeep real raw files read-only in approved institutional storage outside this repository. Keep processed patient-level files, logs, plots awaiting disclosure review, and model objects there too. A Parquet file is still patient-level data when it contains one row per case. De-identification does not make redistribution appropriate.\nProject decision. Document a local data path, release, checksums, and parser version. The generated project’s config.local.yaml is ignored; its portable config.yaml has no real data path. Never place downloaded data under website/, where publication tools may copy it.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "3. Understanding the PUF and Downloaded Files"
+    ]
+  },
+  {
+    "objectID": "puf.html#practice-and-readiness",
+    "href": "puf.html#practice-and-readiness",
+    "title": "3. Understanding the PUF and Downloaded Files",
+    "section": "Practice and readiness",
+    "text": "Practice and readiness\nWithout opening any real dataset, fill an inventory for an imaginary release and draw the route from text → validated table → cohort → model. Explain why the diagnosis-year range and variable-year range may differ. Continue to Navigating the Data Dictionary.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "3. Understanding the PUF and Downloaded Files"
+    ]
+  },
+  {
+    "objectID": "reproducibility.html",
+    "href": "reproducibility.html",
+    "title": "Reproducibility and Project Handoff",
+    "section": "",
+    "text": "Note\n\n\n\nTeaching outline. Adapt the handoff to institutional policy and your approved study.",
+    "crumbs": [
+      "Home",
+      "Reporting and handoff",
+      "Reproducibility and Project Handoff"
+    ]
+  },
+  {
+    "objectID": "reproducibility.html#reconstruct-the-work",
+    "href": "reproducibility.html#reconstruct-the-work",
+    "title": "Reproducibility and Project Handoff",
+    "section": "Reconstruct the work",
+    "text": "Reconstruct the work\nRecord the PUF release and local input checksums, dictionary revisions, protocol version, source-code commit, Python/package versions, Quarto version and run command. Keep patient-level inputs and outputs in approved storage. The public code should be understandable without copying those records.\nSeparate immutable inputs, intermediate transformations and reviewed aggregate results. Preserve a cohort flow and a record of changes to the protocol. A fixed random seed makes a computational step repeatable; it does not address biased study design.",
+    "crumbs": [
+      "Home",
+      "Reporting and handoff",
+      "Reproducibility and Project Handoff"
+    ]
+  },
+  {
+    "objectID": "reproducibility.html#hand-off-responsibility",
+    "href": "reproducibility.html#hand-off-responsibility",
+    "title": "Reproducibility and Project Handoff",
+    "section": "Hand off responsibility",
+    "text": "Hand off responsibility\nGive the next authorized researcher the question, access requirements, approved storage location, environment instructions, variable map, cohort rules, analysis plan, diagnostics, disclosure review record and known limitations through approved channels. Test recreation using the synthetic demo. Re-run the real study only in the authorized environment.\nHave the PI confirm access changes when a researcher leaves. Do not transfer credentials, copy data to personal storage, or assume access continues after graduation.",
+    "crumbs": [
+      "Home",
+      "Reporting and handoff",
+      "Reproducibility and Project Handoff"
+    ]
+  },
+  {
+    "objectID": "setup.html",
+    "href": "setup.html",
+    "title": "6. Computer, VS Code, and Python Setup",
+    "section": "",
+    "text": "Create an isolated Python environment, select it in VS Code, render the website, and run a practice analysis without real data.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "6. Computer, VS Code, and Python Setup"
+    ]
+  },
+  {
+    "objectID": "setup.html#what-you-will-learn",
+    "href": "setup.html#what-you-will-learn",
+    "title": "6. Computer, VS Code, and Python Setup",
+    "section": "",
+    "text": "Create an isolated Python environment, select it in VS Code, render the website, and run a practice analysis without real data.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "6. Computer, VS Code, and Python Setup"
+    ]
+  },
+  {
+    "objectID": "setup.html#know-the-tools",
+    "href": "setup.html#know-the-tools",
+    "title": "6. Computer, VS Code, and Python Setup",
+    "section": "Know the tools",
+    "text": "Know the tools\nEducational explanation. Python runs analysis code. VS Code edits files and provides a terminal. A terminal accepts commands; it is not the Python prompt marked &gt;&gt;&gt;. Git records source changes. Quarto converts .qmd lessons into a searchable website. Installing the Python package named quarto does not replace the Quarto CLI.\nUse Python 3.11 for the tested environment. The dependency snapshot records an exact tested package set; other Python versions and operating systems require their own validation. Download installers from Python, VS Code, Git, and Quarto, following institutional software policy.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "6. Computer, VS Code, and Python Setup"
+    ]
+  },
+  {
+    "objectID": "setup.html#open-the-right-folder",
+    "href": "setup.html#open-the-right-folder",
+    "title": "6. Computer, VS Code, and Python Setup",
+    "section": "Open the right folder",
+    "text": "Open the right folder\nIn VS Code, choose File → Open Folder and select the guide folder containing requirements.txt, create_ncdb_project.py, and website. Open Terminal → New Terminal. Commands below assume that folder is your working directory. Do not type the Markdown backticks or the prompt symbol.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "6. Computer, VS Code, and Python Setup"
+    ]
+  },
+  {
+    "objectID": "setup.html#create-and-install-the-environment",
+    "href": "setup.html#create-and-install-the-environment",
+    "title": "6. Computer, VS Code, and Python Setup",
+    "section": "Create and install the environment",
+    "text": "Create and install the environment\nOn macOS/Linux:\npython3.11 -m venv .venv\nsource .venv/bin/activate\npython -m pip install -r requirements.txt\nOn Windows PowerShell:\npy -3.11 -m venv .venv\n.\\.venv\\Scripts\\Activate.ps1\npython -m pip install -r requirements.txt\nIf activation is blocked by institutional policy, call the interpreter directly rather than changing that policy:\n.\\.venv\\Scripts\\python.exe -m pip install -r requirements.txt\nA virtual environment holds this project’s packages separately. Recreate it after moving the project; do not copy it or commit it. See Python’s venv documentation.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "6. Computer, VS Code, and Python Setup"
+    ]
+  },
+  {
+    "objectID": "setup.html#select-the-interpreter-in-vs-code",
+    "href": "setup.html#select-the-interpreter-in-vs-code",
+    "title": "6. Computer, VS Code, and Python Setup",
+    "section": "Select the interpreter in VS Code",
+    "text": "Select the interpreter in VS Code\nInstall Microsoft’s Python extension. Open the Command Palette and run Python: Select Interpreter; select the Python inside this folder’s .venv. Open a fresh terminal. The VS Code environment guide documents interpreter selection and environment discovery.\npython -c \"import sys; print(sys.executable); print(sys.version)\"\npython -m pip check\npython tools/check_environment.py\nThe executable should end in .venv/bin/python or .venv\\Scripts\\python.exe. pip check should report no broken requirements. If an import fails, compare the selected interpreter with the one printed above before reinstalling anything.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "6. Computer, VS Code, and Python Setup"
+    ]
+  },
+  {
+    "objectID": "setup.html#build-and-search-the-guide",
+    "href": "setup.html#build-and-search-the-guide",
+    "title": "6. Computer, VS Code, and Python Setup",
+    "section": "Build and search the guide",
+    "text": "Build and search the guide\nquarto --version\nquarto render website\nquarto preview website\nA successful render produces website/_site/index.html and search.json. Preview starts a local server; open the address printed in the terminal and try searching “variable map.” Stop preview with Ctrl+C. The website displays code examples without executing analysis on render; executable practice is tested separately.\nIf this machine’s Quarto was installed locally during development, use the absolute CLI path recorded in AUDIT.md, or install the CLI normally from the official download page. Restart the terminal after installation if quarto is not found.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "6. Computer, VS Code, and Python Setup"
+    ]
+  },
+  {
+    "objectID": "setup.html#run-the-synthetic-practice-project",
+    "href": "setup.html#run-the-synthetic-practice-project",
+    "title": "6. Computer, VS Code, and Python Setup",
+    "section": "Run the synthetic practice project",
+    "text": "Run the synthetic practice project\npython create_ncdb_project.py --name \"Practice study\" --site \"Synthetic\" --outcome \"demo_event\" --exposure \"demo_group\"\npython projects/practice_study/scripts/run_synthetic.py\npython -m unittest discover -s tests -v\nThe generator creates a protected local project. The demo creates invented records in memory and writes only synthetic aggregate outputs into its ignored results/ folder. It does not read NCDB files. See the walkthrough for interpretation.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "6. Computer, VS Code, and Python Setup"
+    ]
+  },
+  {
+    "objectID": "setup.html#a-few-python-ideas",
+    "href": "setup.html#a-few-python-ideas",
+    "title": "6. Computer, VS Code, and Python Setup",
+    "section": "A few Python ideas",
+    "text": "A few Python ideas\nA variable names an object. A function packages a reusable operation. A pandas DataFrame is a table; a Series is a column. df[\"age\"] selects a column; df.loc[mask] selects rows where a Boolean condition is true. Indentation defines blocks. A traceback ends with the immediate error, but the earlier lines show how execution reached it.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "6. Computer, VS Code, and Python Setup"
+    ]
+  },
+  {
+    "objectID": "setup.html#storage-and-readiness",
+    "href": "setup.html#storage-and-readiness",
+    "title": "6. Computer, VS Code, and Python Setup",
+    "section": "Storage and readiness",
+    "text": "Storage and readiness\nProject decision. Use only institution-approved storage for real analysis and review data protection. Do not point practice scripts at patient records. You are ready when the environment check, website render, and synthetic run succeed and you can locate their outputs.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "6. Computer, VS Code, and Python Setup"
+    ]
+  },
+  {
+    "objectID": "start_here.html",
+    "href": "start_here.html",
+    "title": "1. Start Here: What is NCDB?",
+    "section": "",
+    "text": "By the end, you should be able to describe the data source, distinguish a case from a population denominator, and decide whether a proposed outcome is observable.\n\n\n\n\n\n\nNoteOfficial source — verify\n\n\n\nThe National Cancer Database is a hospital-based registry program of the American College of Surgeons and the American Cancer Society. See the ACS NCDB overview. The PUF FAQ states that NCDB is not population-based, cannot support population incidence calculations, and that recurrence is not included in the PUF.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "1. Start Here: What is NCDB?"
+    ]
+  },
+  {
+    "objectID": "start_here.html#what-you-will-learn",
+    "href": "start_here.html#what-you-will-learn",
+    "title": "1. Start Here: What is NCDB?",
+    "section": "",
+    "text": "By the end, you should be able to describe the data source, distinguish a case from a population denominator, and decide whether a proposed outcome is observable.\n\n\n\n\n\n\nNoteOfficial source — verify\n\n\n\nThe National Cancer Database is a hospital-based registry program of the American College of Surgeons and the American Cancer Society. See the ACS NCDB overview. The PUF FAQ states that NCDB is not population-based, cannot support population incidence calculations, and that recurrence is not included in the PUF.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "1. Start Here: What is NCDB?"
+    ]
+  },
+  {
+    "objectID": "start_here.html#a-registry-is-a-structured-account-of-care",
+    "href": "start_here.html#a-registry-is-a-structured-account-of-care",
+    "title": "1. Start Here: What is NCDB?",
+    "section": "A registry is a structured account of care",
+    "text": "A registry is a structured account of care\nEducational explanation. A cancer registry translates clinical information into standardized fields. A row represents a cancer case; a column represents an item such as diagnosis year or a treatment characteristic. A registry code is the output of a coding rule, not a complete clinical narrative. “Unknown” may reflect absent documentation rather than a patient’s underlying condition.\nThe Participant User File (PUF) is the research extract you apply to receive. It is not a live connection to hospital charts or the whole registry. The records you analyze have already passed through selection and processing before your study starts. Your analytic cohort adds another layer of selection.\nThink of the study population as a sequence:\nPeople with cancer → cases captured by contributing programs\n→ cases included in your PUF release → cases meeting your protocol\n→ cases with information required for a particular analysis\nEach arrow can change who is represented. Large sample size does not eliminate selection bias.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "1. Start Here: What is NCDB?"
+    ]
+  },
+  {
+    "objectID": "start_here.html#what-questions-fit",
+    "href": "start_here.html#what-questions-fit",
+    "title": "1. Start Here: What is NCDB?",
+    "section": "What questions fit?",
+    "text": "What questions fit?\n\n\n\n\n\n\n\nProposed question\nFeasibility assessment\n\n\n\n\nHow does recorded treatment use differ across observed groups?\nPotentially feasible after verifying treatment definitions and comparable years\n\n\nIs an exposure associated with overall survival?\nPotentially feasible with valid follow-up, time origin, confounders, and bias assessment\n\n\nWhat is the national incidence of this cancer?\nNot an appropriate NCDB PUF question: there is no population denominator\n\n\nDoes treatment prevent recurrence?\nThe required recurrence endpoint is unavailable in the PUF described by the current FAQ\n\n\nDid treatment cause longer survival?\nObservational comparisons require additional causal assumptions; a regression coefficient alone cannot establish this\n\n\n\nCancer-specific mortality is also unavailable according to the current application instructions. Do not rename overall survival as cancer-specific survival.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "1. Start Here: What is NCDB?"
+    ]
+  },
+  {
+    "objectID": "start_here.html#turn-an-idea-into-a-research-question",
+    "href": "start_here.html#turn-an-idea-into-a-research-question",
+    "title": "1. Start Here: What is NCDB?",
+    "section": "Turn an idea into a research question",
+    "text": "Turn an idea into a research question\nProject decision. Write one sentence naming the population, exposure, comparator, outcome, and relevant time period. For example: “Among a prespecified eligible cancer cohort, is recorded treatment A associated with overall survival compared with treatment B?” This is a question template, not a recommended clinical comparison.\nNow list what must be observable: eligibility before treatment, treatment definition and timing, outcome timing, baseline confounders, and follow-up. Mark each as verified, uncertain, or unavailable. An uncertain primary outcome is a feasibility problem to resolve before applying or modeling.\nDo not select covariates simply because they are available. A confounder can influence both treatment selection and outcome; a mediator occurs along the pathway from treatment to outcome. Adjusting for these has different implications. Bring a timeline or causal diagram to your mentor.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "1. Start Here: What is NCDB?"
+    ]
+  },
+  {
+    "objectID": "start_here.html#practice-a-five-minute-feasibility-note",
+    "href": "start_here.html#practice-a-five-minute-feasibility-note",
+    "title": "1. Start Here: What is NCDB?",
+    "section": "Practice: a five-minute feasibility note",
+    "text": "Practice: a five-minute feasibility note\nWrite your proposed question, the source population you can actually study, three required concepts, and one limitation that a larger sample would not solve. Find each concept in the release-specific dictionary. Stop at “not verified” when you cannot establish a definition.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "1. Start Here: What is NCDB?"
+    ]
+  },
+  {
+    "objectID": "start_here.html#readiness-check",
+    "href": "start_here.html#readiness-check",
+    "title": "1. Start Here: What is NCDB?",
+    "section": "Readiness check",
+    "text": "Readiness check\nCan you explain why a million hospital cases do not provide a national incidence denominator? Can you name the endpoint your file actually measures? Can you distinguish association from a causal effect? If so, continue to Obtaining Access.",
+    "crumbs": [
+      "Home",
+      "Foundation lessons",
+      "1. Start Here: What is NCDB?"
+    ]
+  },
+  {
+    "objectID": "synthetic.html",
+    "href": "synthetic.html",
+    "title": "Synthetic Walkthrough",
+    "section": "",
+    "text": "Practice a reproducible sequence before handling approved records. Every field beginning demo_ is invented; the distributions and model coefficients have no NCDB or clinical interpretation.",
+    "crumbs": [
+      "Home",
+      "Working with data",
+      "Synthetic Walkthrough"
+    ]
+  },
+  {
+    "objectID": "synthetic.html#purpose",
+    "href": "synthetic.html#purpose",
+    "title": "Synthetic Walkthrough",
+    "section": "",
+    "text": "Practice a reproducible sequence before handling approved records. Every field beginning demo_ is invented; the distributions and model coefficients have no NCDB or clinical interpretation.",
+    "crumbs": [
+      "Home",
+      "Working with data",
+      "Synthetic Walkthrough"
+    ]
+  },
+  {
+    "objectID": "synthetic.html#run-it",
+    "href": "synthetic.html#run-it",
+    "title": "Synthetic Walkthrough",
+    "section": "Run it",
+    "text": "Run it\nFrom the guide root with the Python environment active:\npython create_ncdb_project.py --name \"Practice study\" --site \"Synthetic\" --outcome \"demo_event\" --exposure \"demo_group\"\npython projects/practice_study/scripts/run_synthetic.py\nThe generator refuses to overwrite an existing project. To repeat the practice analysis, run the second command again. Outputs are overwritten only in that project’s synthetic results folder.",
+    "crumbs": [
+      "Home",
+      "Working with data",
+      "Synthetic Walkthrough"
+    ]
+  },
+  {
+    "objectID": "synthetic.html#what-happens",
+    "href": "synthetic.html#what-happens",
+    "title": "Synthetic Walkthrough",
+    "section": "What happens",
+    "text": "What happens\n\nAn in-memory fixed-width example uses invented ID, age, and marker fields. The first ID remains 001, demonstrating why codes should initially be strings.\nA seeded random generator creates 600 fictional records with age, group, a separate binary outcome, and censored follow-up.\nA fictional age restriction selects an adult practice cohort and records exclusions. This rule is not a recommendation for your study.\nThe script writes missingness summaries, grouped counts, logistic estimates, a KM plot, Cox estimates, and a small run summary.\nPropensity scores are estimated to exercise the function, but no matching or causal effect is claimed. Individual scores and individual records are not exported.",
+    "crumbs": [
+      "Home",
+      "Working with data",
+      "Synthetic Walkthrough"
+    ]
+  },
+  {
+    "objectID": "synthetic.html#learn-fixed-width-positions",
+    "href": "synthetic.html#learn-fixed-width-positions",
+    "title": "Synthetic Walkthrough",
+    "section": "Learn fixed-width positions",
+    "text": "Learn fixed-width positions\nImagine 00145P: positions 1–3 are an invented identifier, 4–5 are age, and 6 is a fictional marker. Python’s colspecs use zero-based, end-exclusive positions: [(0, 3), (3, 5), (5, 6)]. The endpoint is not included. This example is not an NCDB layout. See pandas read_fwf.",
+    "crumbs": [
+      "Home",
+      "Working with data",
+      "Synthetic Walkthrough"
+    ]
+  },
+  {
+    "objectID": "synthetic.html#inspect-the-outputs",
+    "href": "synthetic.html#inspect-the-outputs",
+    "title": "Synthetic Walkthrough",
+    "section": "Inspect the outputs",
+    "text": "Inspect the outputs\nOpen projects/practice_study/results/synthetic/summary.json and cohort_flow.csv locally. Confirm that retained plus excluded equals 600. Check that Table 1 counts sum to the final cohort. The binary outcome used for logistic regression differs from the follow-up event used by survival models; they answer different demonstration questions.\nThe KM curve displays censoring-based estimates for invented groups. The logistic and Cox confidence intervals reflect fitted sampling models, not real clinical evidence. These estimates do not validate assumptions or authorize the same specification on NCDB data.",
+    "crumbs": [
+      "Home",
+      "Working with data",
+      "Synthetic Walkthrough"
+    ]
+  },
+  {
+    "objectID": "synthetic.html#extend-carefully",
+    "href": "synthetic.html#extend-carefully",
+    "title": "Synthetic Walkthrough",
+    "section": "Extend carefully",
+    "text": "Extend carefully\nChange the synthetic seed and observe variation. Add a missing predictor and confirm that the model helper refuses it. Explain why that refusal requires a missing-data decision rather than an automatic .dropna(). Run tests again after changing utilities.\nNext: use the analysis overview to plan a real study with your mentor.",
+    "crumbs": [
+      "Home",
+      "Working with data",
+      "Synthetic Walkthrough"
+    ]
+  }
+]

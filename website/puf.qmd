@@ -1,0 +1,53 @@
+---
+title: "3. Understanding the PUF and Downloaded Files"
+---
+
+
+## What you will learn
+
+Identify the role of each downloaded file, record the exact release, and explain why a text file needs a matching layout before it can become a trustworthy table.
+
+::: {.callout-note title="Official source — release matters"}
+ACS distributes PUF data as flat text with companion SAS/SPSS scripts; the [PUF resource page](https://www.facs.org/quality-programs/cancer-programs/national-cancer-database/puf/) links current and legacy materials. The [2024 Getting Started document](https://www.facs.org/media/5fun25np/getting-started-with-the-2024-puf.pdf) identifies diagnosis years 2004–2024 for that release. It also notes that item availability depends on diagnosis year. Use the documentation matching the files actually approved for your project.
+:::
+
+## Three different dates
+
+**Educational explanation.** A **diagnosis year** belongs to a case. A **PUF release** identifies an edition of the extract. A **download date** records when your team obtained it. They are not interchangeable. A recently downloaded release can contain many earlier diagnosis years, and those years do not guarantee every field was collected throughout.
+
+## Inventory before opening data
+
+| Item | Purpose | What to record locally |
+|---|---|---|
+| Compressed/encrypted download | Delivery container | Original filename, release, byte size, download date |
+| Extracted text data | Case records | Exact path, checksum, file size; keep unchanged |
+| Layout / import script | Positions, types, names, and labels | Release match and script version |
+| PUF dictionary | Meanings, valid codes, availability, notes | Title, revision date, item references |
+| Getting Started and changes notes | Release context and cautions | Applicable version and issues for your study |
+| Local analysis outputs | Your transformations | Input checksum, code version, run date |
+
+The project template supplies a blank `file_manifest.csv`. A checksum is a file fingerprint: it helps detect accidental changes, but it does not prove that a file is complete or scientifically valid. Keep manifests describing restricted downloads with the local project.
+
+## Why double-clicking is not importing
+
+A text file may use fixed positions rather than commas. In a fixed-width layout, a field occupies a defined character interval. An incorrect interval can produce plausible-looking but incorrect values without raising an error. Leading zeros can disappear if codes become integers.
+
+The official [2024 Quick Start Data Structure](https://www.facs.org/media/lx4njye1/ncdb-puf-quickstart-data-structure-2024.pdf) supplies release-specific layout information. This guide intentionally does not reproduce that layout. Follow the [synthetic walkthrough](synthetic.qmd) to learn position conversion with invented fields.
+
+For a real parser, reconcile the supplied positions, field lengths, types, encoding, and record length. Validate a small authorized local sample against the supplied import method before processing the whole file. Never use a screenshot or copied patient row to ask for help here.
+
+## Cases, identifiers, and releases
+
+The [2024 Getting Started document](https://www.facs.org/media/5fun25np/getting-started-with-the-2024-puf.pdf) describes randomly assigned case identifiers that change between releases and cannot link cases across cancer sites. The [FAQ](https://www.facs.org/media/5xukuwub/ndcb-puf-frequently-asked-questions.pdf) advises against combining old and new PUF versions.
+
+**Educational explanation.** Do not append a newer release to an older one to “add another year.” Repeated records and updated information can change counts and estimates. Treat each release as a separately documented input. Do not assume one case equals a uniquely linkable person across files.
+
+## Storage plan
+
+Keep real raw files read-only in approved institutional storage outside this repository. Keep processed patient-level files, logs, plots awaiting disclosure review, and model objects there too. A Parquet file is still patient-level data when it contains one row per case. De-identification does not make redistribution appropriate.
+
+**Project decision.** Document a local data path, release, checksums, and parser version. The generated project's `config.local.yaml` is ignored; its portable `config.yaml` has no real data path. Never place downloaded data under `website/`, where publication tools may copy it.
+
+## Practice and readiness
+
+Without opening any real dataset, fill an inventory for an imaginary release and draw the route from text → validated table → cohort → model. Explain why the diagnosis-year range and variable-year range may differ. Continue to [Navigating the Data Dictionary](dictionary.qmd).

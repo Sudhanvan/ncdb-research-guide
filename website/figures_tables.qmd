@@ -1,0 +1,19 @@
+---
+title: "Figures and Tables"
+---
+
+::: {.callout-note title="Teaching outline"}
+This chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.
+:::
+
+
+# Standard outputs
+
+- Cohort flow diagram
+- Table 1
+- Regression results
+- Kaplan-Meier curves
+- Forest plots
+- Sensitivity analyses
+
+All exported outputs should be reproducible from scripts.

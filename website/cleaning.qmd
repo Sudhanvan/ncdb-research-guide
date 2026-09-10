@@ -1,0 +1,19 @@
+---
+title: "Cleaning and Recoding"
+---
+
+::: {.callout-note title="Teaching outline"}
+This chapter introduces the workflow. Apply it with the reviewed variable map and study protocol; the analysis templates are components, not a validated turnkey pipeline.
+:::
+
+
+# Key principles
+
+- Keep raw variables unchanged
+- Create new analytic variables
+- Document every recode
+- Distinguish missing, unknown, and not applicable
+- Avoid duplicate representations of the same construct
+- Check coding changes by diagnosis year
+
+Example recodes must follow the release-specific variable map. Keep an age top-code or unknown code from becoming an ordinary continuous age accidentally. Use the fictional mapping in the [dictionary lesson](dictionary.qmd) to practice without importing real records.
