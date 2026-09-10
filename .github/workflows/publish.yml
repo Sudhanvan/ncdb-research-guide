@@ -1,0 +1,49 @@
+name: Publish guide
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'website/**'
+      - '.github/workflows/publish.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: '1.9.38'
+      - uses: actions/configure-pages@v5
+      - name: Render guide
+        run: quarto render website
+      - name: Check required files
+        run: |
+          test -s website/_site/index.html
+          test -s website/_site/search.json
+          test -s website/_site/downloads/NCDB_Research_Guide.pdf
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: website/_site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -6,15 +6,22 @@ Published with GitHub Pages at https://sudhanvan.github.io/ncdb-research-guide/.
 
 ## Edit and publish
 
-The editable Quarto content is in `website/`. The published static files are in `docs/`.
-Install Quarto 1.9.38 or a compatible version, then run:
+Edit the `.qmd` files in `website/` on GitHub using the pencil button, then
+choose **Commit changes** to save to `main`. GitHub Actions automatically renders
+and publishes the guide, usually within a few minutes. The public URL stays the same.
+Check the repository's **Actions** tab for the **Publish guide** result. If rendering
+fails, the previous successful website remains available; fix the reported error
+and save again. Changes on another branch publish only after merging into `main`.
+
+For optional local preview, install Quarto 1.9.38 or a compatible version and run:
 
 ```bash
 python3 build_site.py
 ```
 
-Review the rendered site, commit the updated source and `docs/`, and push to `main`.
-GitHub Pages publishes `docs/` from the `main` branch. No local server is needed.
+Review the rendered site and push the source changes to `main`. No local server is needed.
+The `docs/` directory is a legacy local snapshot, no longer the publishing source.
+Automatic publishing builds directly from `website/`; do not edit generated HTML in `docs/`.
 The PDF download is an explicitly generated educational artifact; regenerate it
 when lessons change, and place it at `website/downloads/NCDB_Research_Guide.pdf`.
 
