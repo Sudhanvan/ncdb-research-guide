@@ -48,7 +48,7 @@ This repository holds code, original teaching material, and synthetic examples o
 
 ## Development status
 
-The six foundation lessons and synthetic workflow are developed for onboarding. Advanced lessons remain explicitly marked teaching outlines. They cover the intended full workflow but still need site-specific examples, expert methodological review, and expanded exercises before serving as a comprehensive analysis curriculum.
+The six sections here and workflow examples are developed as an introduction to the data environment. They cover the intended full workflow but still need site-specific examples and expert methodological review.
 
 ## Download the guide
 
