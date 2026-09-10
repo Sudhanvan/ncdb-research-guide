@@ -42,9 +42,9 @@ Our explanations and fictional examples help you learn the workflow. They do not
 Eligibility rules, study years, confounders, missing-data methods, model specification, and disclosure review belong to your study protocol. Record who approved each decision and why.
 :::
 
-## Keep research data out of the guide
+## Data Privacy and Security
 
-This repository holds code, original teaching material, and synthetic examples only. Never copy patient rows, screenshots of records, model prediction files, credentials, or restricted downloads into it. A private Git repository is also a sharing system. Read [data protection](data_protection.qmd) before working with approved records.
+This repository holds code, original teaching material, and synthetic examples only. No real records or data are included here. Never copy patient data, screenshots of records, model prediction files, credentials, or restricted downloads. This guide is meant to be an introduction with theoretical examples only. Read [data protection](data_protection.qmd) before working with approved records.
 
 ## Development status
 
